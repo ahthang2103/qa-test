@@ -34,7 +34,24 @@
   },
   "AboutPage": {
     "title": "Giới thiệu",
-    "placeholder": "Nội dung sẽ được cập nhật sớm..."
+    "subtitle": "Quá trình học tập",
+    "education": {
+      "university": {
+        "period": "2021 - 2025",
+        "school": "Trường Đại học Kinh tế Huế (HUE)",
+        "description": "Tốt nghiệp năm 2025"
+      },
+      "highSchool": {
+        "period": "2018 - 2021",
+        "school": "THPT Chuyên Lê Quý Đôn",
+        "location": "Đông Hà, Quảng Trị"
+      },
+      "middleSchool": {
+        "period": "2014 - 2018",
+        "school": "Trường THCS Trần Hưng Đạo",
+        "location": "Đông Hà, Quảng Trị"
+      }
+    }
   },
   "TrainingPage": {
     "title": "Quá trình học tập",

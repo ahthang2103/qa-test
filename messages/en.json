@@ -34,7 +34,24 @@
   },
   "AboutPage": {
     "title": "About",
-    "placeholder": "Content coming soon..."
+    "subtitle": "Education",
+    "education": {
+      "university": {
+        "period": "2021 - 2025",
+        "school": "Hue University of Economics (HUE)",
+        "description": "Graduated in 2025"
+      },
+      "highSchool": {
+        "period": "2018 - 2021",
+        "school": "Le Quy Don Gifted High School",
+        "location": "Dong Ha, Quang Tri"
+      },
+      "middleSchool": {
+        "period": "2014 - 2018",
+        "school": "Tran Hung Dao Middle School",
+        "location": "Dong Ha, Quang Tri"
+      }
+    }
   },
   "TrainingPage": {
     "title": "Training",
