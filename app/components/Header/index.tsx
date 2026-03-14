@@ -56,7 +56,7 @@ export const Header = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="rounded-md p-2 text-blue-500 transition-colors hover:bg-blue-50 hover:text-blue-800 md:hidden dark:text-blue-400 dark:hover:bg-blue-900/30 dark:hover:text-blue-200"
+            className="rounded-md p-2 text-blue-500 transition-colors hover:text-blue-800 md:hidden dark:text-blue-400 dark:hover:text-blue-200"
             aria-label="Toggle menu"
           >
             <svg
