@@ -34,7 +34,31 @@
   },
   "AboutPage": {
     "title": "About",
-    "subtitle": "Education",
+    "profile": {
+      "title": "Personal Information",
+      "name": "Nguyen Ha Vy",
+      "birthYear": "2003",
+      "hometown": "Dong Ha, Quang Tri",
+      "labelName": "Full name",
+      "labelBirthYear": "Year of birth",
+      "labelHometown": "Hometown"
+    },
+    "goals": {
+      "title": "Career Goals",
+      "shortTerm": "Land my first job as a Tester",
+      "longTerm": "Become a professional Tester with solid skills in systematic and effective software testing",
+      "labelShortTerm": "Short-term",
+      "labelLongTerm": "Long-term"
+    },
+    "skills": {
+      "title": "Current Skills",
+      "items": {
+        "excel": "Proficient in Excel: data entry, compilation, and processing",
+        "detail": "Meticulous and detail-oriented in handling documents and records",
+        "document": "Office document and record management"
+      }
+    },
+    "educationTitle": "Education",
     "education": {
       "university": {
         "period": "2021 - 2025",

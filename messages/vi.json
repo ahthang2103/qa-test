@@ -34,7 +34,31 @@
   },
   "AboutPage": {
     "title": "Giới thiệu",
-    "subtitle": "Quá trình học tập",
+    "profile": {
+      "title": "Thông tin cá nhân",
+      "name": "Nguyễn Hạ Vy",
+      "birthYear": "2003",
+      "hometown": "Đông Hà, Quảng Trị",
+      "labelName": "Họ tên",
+      "labelBirthYear": "Năm sinh",
+      "labelHometown": "Quê quán"
+    },
+    "goals": {
+      "title": "Mục tiêu nghề nghiệp",
+      "shortTerm": "Tìm được công việc Tester đầu tiên",
+      "longTerm": "Trở thành một Tester chuyên nghiệp, có khả năng kiểm thử phần mềm một cách bài bản và hiệu quả",
+      "labelShortTerm": "Ngắn hạn",
+      "labelLongTerm": "Dài hạn"
+    },
+    "skills": {
+      "title": "Kỹ năng hiện có",
+      "items": {
+        "excel": "Thành thạo Excel: nhập liệu, tổng hợp và xử lý dữ liệu",
+        "detail": "Tỉ mỉ, cẩn thận với chi tiết trong xử lý chứng từ và tài liệu",
+        "document": "Xử lý và quản lý hồ sơ, chứng từ văn phòng"
+      }
+    },
+    "educationTitle": "Quá trình học tập",
     "education": {
       "university": {
         "period": "2021 - 2025",
