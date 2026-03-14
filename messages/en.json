@@ -18,6 +18,18 @@
     "p8": "I created this site to record my entire learning journey and career transition into Testing, like a study journal to track my progress over time.",
     "p9": "Thank you everyone for taking the time to read this."
   },
+  "AboutPage": {
+    "title": "About",
+    "placeholder": "Content coming soon..."
+  },
+  "TrainingPage": {
+    "title": "Training",
+    "placeholder": "Content coming soon..."
+  },
+  "PracticesPage": {
+    "title": "Practices",
+    "placeholder": "Content coming soon..."
+  },
   "Footer": {
     "rights": "All rights reserved."
   },

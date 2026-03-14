@@ -10,7 +10,11 @@ import { Link } from '@/i18n/navigation';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { Logo } from '../Logo';
 
-const navItems = ['about', 'education', 'practices'] as const;
+const navItems = [
+  { key: 'about', href: '/about' },
+  { key: 'education', href: '/training' },
+  { key: 'practices', href: '/practices' },
+] as const;
 
 export const Header = () => {
   const t = useTranslations('Header');
@@ -26,13 +30,13 @@ export const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-6 md:flex">
-          {navItems.map((item) => (
+          {navItems.map(({ key, href }) => (
             <Link
-              key={item}
-              href={`#${item}`}
+              key={key}
+              href={href}
               className="text-sm font-medium transition-opacity duration-300 hover:opacity-50"
             >
-              {t(item)}
+              {t(key)}
             </Link>
           ))}
         </nav>
@@ -87,14 +91,14 @@ export const Header = () => {
       {/* Mobile Nav */}
       {mobileMenuOpen && (
         <nav className="border-t border-blue-200/60 px-4 pb-3 pt-2 md:hidden dark:border-blue-800/60">
-          {navItems.map((item) => (
+          {navItems.map(({ key, href }) => (
             <Link
-              key={item}
-              href={`#${item}`}
+              key={key}
+              href={href}
               onClick={() => setMobileMenuOpen(false)}
               className="block py-2 text-sm font-medium transition-opacity duration-300 hover:opacity-50"
             >
-              {t(item)}
+              {t(key)}
             </Link>
           ))}
         </nav>
