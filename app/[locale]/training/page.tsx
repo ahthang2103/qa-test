@@ -1,5 +1,5 @@
 import { useLocale, useTranslations } from 'next-intl';
-import { diaryEntries } from './entries';
+import { diaryEntries } from './entries/index';
 
 const formatDate = (dateStr: string) => {
   const date = new Date(dateStr + 'T00:00:00');
