@@ -1,15 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 // i18n
 import { Link } from '@/i18n/navigation';
 
 // Components
-import LanguageSwitcher from './LanguageSwitcher';
-import { Logo } from './Logo';
+import { LanguageSwitcher } from '../LanguageSwitcher';
+import { Logo } from '../Logo';
 
 const navItems = ['about', 'education', 'practices'] as const;
 

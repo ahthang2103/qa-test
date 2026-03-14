@@ -9,7 +9,7 @@ const localeLabels: Record<string, string> = {
   en: 'EN',
 };
 
-export default function LanguageSwitcher() {
+export const LanguageSwitcher = () => {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -35,4 +35,4 @@ export default function LanguageSwitcher() {
       ))}
     </div>
   );
-}
+};
