@@ -19,15 +19,15 @@ export const LanguageSwitcher = () => {
   }
 
   return (
-    <div className="ml-2 flex items-center rounded-full border border-blue-100/50 dark:border-blue-800/30">
+    <div className="ml-2 flex items-center rounded-full border border-gray-200">
       {routing.locales.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}
-          className={`rounded-full px-3 py-0.5 text-xs font-medium transition-colors ${
+          className={`rounded-full px-3 py-0.5 text-xs font-medium transition-opacity ${
             loc === locale
               ? 'bg-blue-600 text-white dark:bg-blue-500'
-              : 'text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300'
+              : 'hover:opacity-50'
           }`}
         >
           {localeLabels[loc] ?? loc.toUpperCase()}

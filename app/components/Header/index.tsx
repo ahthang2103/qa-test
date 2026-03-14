@@ -30,7 +30,7 @@ export const Header = () => {
             <Link
               key={item}
               href={`#${item}`}
-              className="text-sm font-medium text-blue-600 transition-colors hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200"
+              className="text-sm font-medium transition-opacity duration-300 hover:opacity-50"
             >
               {t(item)}
             </Link>
@@ -43,7 +43,7 @@ export const Header = () => {
             href="https://github.com/havynguyen23"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 transition-colors hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200"
+            className="transition-opacity duration-300 hover:opacity-50"
             aria-label="GitHub"
           >
             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -56,7 +56,7 @@ export const Header = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="rounded-md p-2 text-blue-500 transition-colors hover:text-blue-800 md:hidden dark:text-blue-400 dark:hover:text-blue-200"
+            className="rounded-md p-2 transition-opacity duration-300 hover:opacity-50 md:hidden"
             aria-label="Toggle menu"
           >
             <svg
@@ -92,7 +92,7 @@ export const Header = () => {
               key={item}
               href={`#${item}`}
               onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-medium text-blue-600 transition-colors hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200"
+              className="block py-2 text-sm font-medium transition-opacity duration-300 hover:opacity-50"
             >
               {t(item)}
             </Link>
