@@ -1,15 +1,14 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+// Constants
+import { APP_INFORMATION } from '@/app/constants/app';
 
 export const Footer = () => {
-  const t = useTranslations('Footer');
-
   return (
-    <footer className="w-full border-t border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6">
-        <p className="text-sm text-zinc-500 dark:text-zinc-400">
-          &copy; {new Date().getFullYear()} Havy. {t('rights')}
+    <footer className="w-full border-t border-blue-200/60">
+      <div className="mx-auto flex max-w-6xl items-center justify-center px-4 py-6 sm:px-6">
+        <p className="text-sm font-medium text-blue-600 dark:text-blue-400">
+          &copy; {new Date().getFullYear()} {APP_INFORMATION.NAME}
         </p>
       </div>
     </footer>
