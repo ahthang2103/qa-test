@@ -25,9 +25,7 @@ export const LanguageSwitcher = () => {
           key={loc}
           onClick={() => switchLocale(loc)}
           className={`rounded-full px-3 py-0.5 text-xs font-medium transition-opacity ${
-            loc === locale
-              ? 'bg-blue-600 text-white dark:bg-blue-500'
-              : 'hover:opacity-50'
+            loc === locale ? 'bg-black text-white' : 'hover:opacity-50'
           }`}
         >
           {localeLabels[loc] ?? loc.toUpperCase()}
