@@ -9,7 +9,11 @@ import { TrainingContent } from './components/TrainingContent';
 export const generateMetadata = () => customGenerateMetadata(ROUTES.TRAINING);
 
 const Training = () => {
-  return <TrainingContent />;
+  return (
+    <>
+      <TrainingContent />
+    </>
+  );
 };
 
 export default Training;
