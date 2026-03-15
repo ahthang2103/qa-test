@@ -1,7 +1,7 @@
 import { DiaryEntry } from './types';
 
 export const vi: DiaryEntry = {
-  date: '2026-03-15',
+  date: '2026-03-16',
   title: 'Bắt đầu hành trình - Tìm hiểu Software Testing là gì',
   content: (
     <>
@@ -94,7 +94,7 @@ Expected Result: Chuyển đến trang chủ thành công`}</code>
 };
 
 export const en: DiaryEntry = {
-  date: '2026-03-15',
+  date: '2026-03-16',
   title: 'Starting the journey - What is Software Testing?',
   content: (
     <>
