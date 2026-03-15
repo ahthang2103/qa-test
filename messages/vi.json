@@ -99,6 +99,56 @@
       "planned": "Dự kiến",
       "in-progress": "Đang thực hiện",
       "completed": "Hoàn thành"
+    },
+    "plans": {
+      "0": {
+        "title": "Lộ trình trở thành Tester trong 6 tháng",
+        "description": "Lộ trình tự học để chuyển sang vị trí QA/Tester từ đầu — bao gồm kiến thức cơ bản, kiểm thử thủ công, kiểm thử API, tự động hóa và chuẩn bị xin việc.",
+        "period": "Tháng 3 – Tháng 8 năm 2026",
+        "topics": ["Lộ trình", "Tự học", "6 Tháng"]
+      }
+    }
+  },
+  "TesterPlanPage": {
+    "title": "Lộ trình trở thành Tester trong 6 tháng",
+    "overview": "Lộ trình tự học để chuyển sang vị trí QA/Tester từ đầu. Không có nền tảng IT, không có ngân sách cho các khóa học trả phí — chỉ có sự cố gắng đều đặn vào buổi tối và cuối tuần.",
+    "roadmapTitle": "Lộ trình học tập",
+    "backToPlans": "Quay lại Kế hoạch",
+    "phase1": {
+      "title": "Kiến thức cơ bản về Kiểm thử phần mềm",
+      "period": "Tháng 1–2 · Tháng 3 – Tháng 4 năm 2026",
+      "goal": "Hiểu kiểm thử là gì, vai trò của nó trong phát triển phần mềm và các khái niệm QA cơ bản.",
+      "topics": ["Các loại kiểm thử", "Vòng đời kiểm thử (STLC)", "Báo cáo lỗi", "QA vs QC", "Cơ bản về tài liệu kiểm thử"]
+    },
+    "phase2": {
+      "title": "Kiểm thử thủ công & Thiết kế Test Case",
+      "period": "Tháng 2–3 · Tháng 4 – Tháng 5 năm 2026",
+      "goal": "Viết test case và test plan hiệu quả, áp dụng các kỹ thuật kiểm thử hộp đen và hộp trắng.",
+      "topics": ["Viết test case", "Test plan & test report", "Kỹ thuật hộp đen", "Kỹ thuật hộp trắng", "Phân vùng tương đương & phân tích giá trị biên"]
+    },
+    "phase3": {
+      "title": "Kiểm thử API với Postman",
+      "period": "Tháng 3–4 · Tháng 5 – Tháng 6 năm 2026",
+      "goal": "Thực hành với REST API: gửi request, viết assertion và tổ chức các bộ kiểm thử.",
+      "topics": ["Khái niệm REST API", "Cơ bản Postman", "HTTP methods & status codes", "Viết assertion", "Quản lý Collection & Environment"]
+    },
+    "phase4": {
+      "title": "Kiến thức cơ bản về Kiểm thử tự động",
+      "period": "Tháng 4–5 · Tháng 6 – Tháng 7 năm 2026",
+      "goal": "Học viết các bài kiểm thử UI tự động cơ bản bằng các công cụ phổ biến và miễn phí.",
+      "topics": ["Tại sao cần kiểm thử tự động", "Cơ bản Selenium WebDriver", "Giới thiệu Playwright", "Viết script kiểm thử đơn giản", "Chạy và đọc kết quả kiểm thử"]
+    },
+    "phase5": {
+      "title": "SQL & Kiểm thử cơ sở dữ liệu",
+      "period": "Tháng 5 · Tháng 7 năm 2026",
+      "goal": "Hiểu cách xác thực dữ liệu ở tầng cơ sở dữ liệu bằng các câu lệnh SQL cơ bản.",
+      "topics": ["SQL cơ bản (SELECT, WHERE, JOIN)", "Xác minh dữ liệu sau các thao tác kiểm thử", "Các kịch bản kiểm thử cơ sở dữ liệu phổ biến"]
+    },
+    "phase6": {
+      "title": "Chuẩn bị xin việc",
+      "period": "Tháng 6 · Tháng 8 năm 2026",
+      "goal": "Xây dựng portfolio, chuẩn bị CV và sẵn sàng cho phỏng vấn vị trí Tester junior.",
+      "topics": ["Viết CV cho Tester", "Portfolio trên GitHub", "Câu hỏi phỏng vấn thường gặp", "Bug report & test case mẫu", "Ứng tuyển vị trí junior"]
     }
   },
   "Footer": {

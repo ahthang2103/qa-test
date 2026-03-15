@@ -99,6 +99,56 @@
       "planned": "Planned",
       "in-progress": "In Progress",
       "completed": "Completed"
+    },
+    "plans": {
+      "0": {
+        "title": "Become a Tester in 6 Months",
+        "description": "A complete self-study roadmap for transitioning into a QA/Tester role from scratch — covering fundamentals, manual testing, API testing, automation, and job preparation.",
+        "period": "Mar 2026 – Aug 2026",
+        "topics": ["Roadmap", "Self-study", "6 Months"]
+      }
+    }
+  },
+  "TesterPlanPage": {
+    "title": "Become a Tester in 6 Months",
+    "overview": "A self-study roadmap for transitioning into a QA/Tester role from scratch. No IT background, no budget for paid courses — just consistent effort in evenings and weekends.",
+    "roadmapTitle": "Learning Roadmap",
+    "backToPlans": "Back to Plans",
+    "phase1": {
+      "title": "Software Testing Fundamentals",
+      "period": "Month 1–2 · Mar – Apr 2026",
+      "goal": "Understand what testing is, its role in software development, and essential QA concepts.",
+      "topics": ["Types of testing", "Test lifecycle (STLC)", "Bug reporting", "QA vs QC", "Test documentation basics"]
+    },
+    "phase2": {
+      "title": "Manual Testing & Test Case Design",
+      "period": "Month 2–3 · Apr – May 2026",
+      "goal": "Write effective test cases and test plans, and apply black-box and white-box testing techniques.",
+      "topics": ["Test case writing", "Test plan & test report", "Black-box techniques", "White-box techniques", "Equivalence partitioning & boundary analysis"]
+    },
+    "phase3": {
+      "title": "API Testing with Postman",
+      "period": "Month 3–4 · May – Jun 2026",
+      "goal": "Get hands-on with REST APIs: sending requests, writing assertions, and organizing test collections.",
+      "topics": ["REST API concepts", "Postman basics", "HTTP methods & status codes", "Writing assertions", "Collection & environment management"]
+    },
+    "phase4": {
+      "title": "Automation Testing Basics",
+      "period": "Month 4–5 · Jun – Jul 2026",
+      "goal": "Learn to write basic automated UI tests using free, widely-used tools.",
+      "topics": ["Why automation testing", "Selenium WebDriver basics", "Playwright introduction", "Writing simple test scripts", "Running and reading test results"]
+    },
+    "phase5": {
+      "title": "SQL & Database Testing",
+      "period": "Month 5 · Jul 2026",
+      "goal": "Understand how to validate data at the database level using basic SQL queries.",
+      "topics": ["Basic SQL (SELECT, WHERE, JOIN)", "Verifying data after test actions", "Common database test scenarios"]
+    },
+    "phase6": {
+      "title": "Job Preparation",
+      "period": "Month 6 · Aug 2026",
+      "goal": "Build a portfolio, prepare a CV, and get ready for junior Tester interviews.",
+      "topics": ["CV writing for testers", "Portfolio on GitHub", "Common interview questions", "Mock bug reports & test cases", "Applying for junior positions"]
     }
   },
   "Footer": {

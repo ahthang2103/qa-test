@@ -24,7 +24,13 @@ const Plans = () => {
         {PLANS.map((plan) => (
           <PlanCard
             key={plan.id}
-            plan={plan}
+            plan={{
+              ...plan,
+              title: t(`plans.${plan.id}.title`),
+              description: t(`plans.${plan.id}.description`),
+              period: t(`plans.${plan.id}.period`),
+              topics: t.raw(`plans.${plan.id}.topics`) as string[],
+            }}
             statusLabel={t(`status.${plan.status}`)}
           />
         ))}

@@ -1,3 +1,6 @@
+// Utils
+import { Link } from '@/i18n/navigation';
+
 // Types
 export type PlanStatus = 'planned' | 'in-progress' | 'completed';
 
@@ -8,6 +11,7 @@ export interface Plan {
   period: string;
   topics: string[];
   status: PlanStatus;
+  slug?: string;
 }
 
 const statusStyles: Record<PlanStatus, string> = {
@@ -22,7 +26,7 @@ interface PlanCardProps {
 }
 
 export const PlanCard = ({ plan, statusLabel }: PlanCardProps) => {
-  return (
+  const content = (
     <div className="rounded-lg border border-black/10 p-5">
       <div className="mb-3 flex items-start justify-between gap-3">
         <h3 className="text-base font-semibold leading-snug">{plan.title}</h3>
@@ -50,4 +54,14 @@ export const PlanCard = ({ plan, statusLabel }: PlanCardProps) => {
       </div>
     </div>
   );
+
+  if (plan.slug) {
+    return (
+      <Link href={`/plans/${plan.slug}`} className="block hover:opacity-80 transition-opacity">
+        {content}
+      </Link>
+    );
+  }
+
+  return content;
 };
