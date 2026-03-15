@@ -3,7 +3,8 @@
     "home": "Trang chủ",
     "about": "Giới thiệu",
     "education": "Quá trình tự học",
-    "practices": "Thực hành"
+    "practices": "Thực hành",
+    "plans": "Kế hoạch"
   },
   "Introduction": {
     "p1": "Xin chào anh chị và các bạn đã ghé đọc bài viết của mình. Mình là <bold>Nguyễn Hạ Vy</bold>.",
@@ -31,6 +32,10 @@
     "practices": {
       "title": "Thực hành",
       "description": "Các bài tập thực hành và dự án luyện tập."
+    },
+    "plans": {
+      "title": "Kế hoạch",
+      "description": "Kế hoạch học tập và lộ trình training."
     }
   },
   "AboutPage": {
@@ -84,6 +89,10 @@
   },
   "PracticesPage": {
     "title": "Thực hành",
+    "placeholder": "Nội dung sẽ được cập nhật sớm..."
+  },
+  "PlansPage": {
+    "title": "Kế hoạch",
     "placeholder": "Nội dung sẽ được cập nhật sớm..."
   },
   "Footer": {

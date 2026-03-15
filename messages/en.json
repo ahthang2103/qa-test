@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "education": "Training",
-    "practices": "Practices"
+    "practices": "Practices",
+    "plans": "Plans"
   },
   "Introduction": {
     "p1": "Hello everyone, thank you for reading my post. My name is <bold>Nguyen Ha Vy</bold>.",
@@ -31,6 +32,10 @@
     "practices": {
       "title": "Practices",
       "description": "Hands-on exercises and practice projects."
+    },
+    "plans": {
+      "title": "Plans",
+      "description": "My training plans and learning roadmap."
     }
   },
   "AboutPage": {
@@ -84,6 +89,10 @@
   },
   "PracticesPage": {
     "title": "Practices",
+    "placeholder": "Content coming soon..."
+  },
+  "PlansPage": {
+    "title": "Plans",
     "placeholder": "Content coming soon..."
   },
   "Footer": {

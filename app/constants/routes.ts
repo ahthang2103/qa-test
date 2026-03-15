@@ -21,4 +21,9 @@ export const ROUTES = {
     TITLE: '',
     LABEL_KEY: 'practices',
   },
+  PLANS: {
+    PATH: '/plans',
+    TITLE: '',
+    LABEL_KEY: 'plans',
+  },
 } as const;

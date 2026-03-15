@@ -7,6 +7,7 @@ const pages = [
   { key: 'about', href: '/about' },
   { key: 'training', href: '/training' },
   { key: 'practices', href: '/practices' },
+  { key: 'plans', href: '/plans' },
 ] as const;
 
 export const PageLinks = () => {
@@ -14,7 +15,7 @@ export const PageLinks = () => {
 
   return (
     <section className="mx-auto w-full max-w-3xl py-12">
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {pages.map(({ key, href }) => (
           <Link
             key={key}
