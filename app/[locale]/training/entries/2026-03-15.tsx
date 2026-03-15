@@ -2,186 +2,404 @@ import { DiaryEntry } from './types';
 
 export const vi: DiaryEntry = {
   date: '2026-03-15',
-  title: 'Bắt đầu hành trình - Tìm hiểu Software Testing là gì',
+  title: 'Tham gia cộng đồng, lên kế hoạch học HTML/CSS/JS và tìm hiểu deploy',
   content: (
     <>
       <p>
-        Hôm nay mình bắt đầu tìm hiểu về Software Testing. Đây là những ghi chú
-        đầu tiên của mình.
+        Hôm nay mình dành thời gian tham gia vào một số cộng đồng liên quan đến
+        lập trình web, lên kế hoạch học HTML/CSS/JS, và tìm hiểu cách để chia
+        sẻ trang web này ra công khai.
       </p>
 
-      <h4>Software Testing là gì?</h4>
+      <h4>Tham gia cộng đồng học lập trình web</h4>
       <p>
-        Software Testing (Kiểm thử phần mềm) là quá trình đánh giá và xác minh
-        rằng một sản phẩm phần mềm hoạt động đúng như mong đợi.
+        Mình đã tìm và tham gia một số nhóm/cộng đồng liên quan đến việc học
+        tạo trang web. Việc có cộng đồng hỗ trợ rất quan trọng khi mới bắt đầu.
+      </p>
+      <ul>
+        <li>
+          <strong>Facebook Groups</strong> - Mình tham gia các nhóm như
+          &quot;Lập trình Web Việt Nam&quot;, &quot;HTML CSS JavaScript
+          Beginners&quot; để đặt câu hỏi và học từ kinh nghiệm của người khác.
+        </li>
+        <li>
+          <strong>Discord servers</strong> - Có nhiều server Discord dành cho
+          developer, mình join vào để có thể hỏi đáp theo thời gian thực.
+        </li>
+        <li>
+          <strong>Reddit</strong> - Các subreddit như{' '}
+          <a
+            href="https://www.reddit.com/r/learnwebdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            r/learnwebdev
+          </a>{' '}
+          và{' '}
+          <a
+            href="https://www.reddit.com/r/webdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            r/webdev
+          </a>{' '}
+          rất hữu ích để đọc câu hỏi của người khác.
+        </li>
+      </ul>
+      <p>
+        <strong>Lưu ý quan trọng:</strong> Khi tham gia cộng đồng, mình nên đọc
+        trước khi hỏi. Nhiều câu hỏi đã được trả lời rồi, tìm kiếm trong nhóm
+        trước để không hỏi lại câu đã có câu trả lời.
       </p>
 
-      <h4>Các loại testing cơ bản:</h4>
+      <h4>Kế hoạch học HTML/CSS/JS</h4>
+      <p>
+        Sau khi tìm hiểu, mình biết rằng HTML, CSS và JavaScript là 3 thứ cốt
+        lõi để tạo ra một trang web. Đây là cách mình hiểu vai trò của từng thứ:
+      </p>
       <ul>
         <li>
-          <strong>Manual Testing</strong> - Kiểm thử thủ công, người tester tự
-          thực hiện các test case
+          <strong>HTML</strong> - Là &quot;bộ xương&quot; của trang web, xác
+          định cấu trúc và nội dung (tiêu đề, đoạn văn, hình ảnh, link...).
         </li>
         <li>
-          <strong>Automation Testing</strong> - Sử dụng công cụ/script để tự
-          động hóa việc kiểm thử
+          <strong>CSS</strong> - Là &quot;bộ quần áo&quot;, quyết định giao
+          diện trông như thế nào (màu sắc, font chữ, layout...).
         </li>
         <li>
-          <strong>Unit Testing</strong> - Kiểm thử từng đơn vị nhỏ nhất của code
-        </li>
-        <li>
-          <strong>Integration Testing</strong> - Kiểm thử sự tương tác giữa các
-          module
+          <strong>JavaScript</strong> - Là &quot;bộ não&quot;, làm cho trang
+          web có thể tương tác được (click button, hiện ẩn nội dung, gọi
+          API...).
         </li>
       </ul>
 
-      <h4>Tài liệu tham khảo:</h4>
-      <ul>
-        <li>
-          <a
-            href="https://www.istqb.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ISTQB - International Software Testing Qualifications Board
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.guru99.com/software-testing.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Guru99 - Software Testing Tutorial
-          </a>
-        </li>
-      </ul>
-
-      <h4>Ví dụ một test case đơn giản:</h4>
+      <h4>Ví dụ đơn giản - HTML cơ bản:</h4>
       <pre>
-        <code>{`Test Case ID: TC001
-Title: Kiểm tra đăng nhập với thông tin hợp lệ
-Precondition: Tài khoản đã được đăng ký
-Steps:
-  1. Mở trang đăng nhập
-  2. Nhập email hợp lệ
-  3. Nhập mật khẩu đúng
-  4. Nhấn nút "Đăng nhập"
-Expected Result: Chuyển đến trang chủ thành công`}</code>
+        <code>{`<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trang web đầu tiên của mình</title>
+  </head>
+  <body>
+    <h1>Xin chào!</h1>
+    <p>Đây là trang web đầu tiên của mình.</p>
+    <a href="https://google.com">Đi đến Google</a>
+  </body>
+</html>`}</code>
       </pre>
 
-      <h4>Công cụ mình đã sử dụng hôm nay:</h4>
+      <h4>Lộ trình học mình tự lên:</h4>
       <ul>
         <li>
-          Mình có sử dụng{' '}
+          <strong>Tuần 1-2:</strong> HTML cơ bản - tags, attributes, forms,
+          tables
+        </li>
+        <li>
+          <strong>Tuần 3-4:</strong> CSS cơ bản - selectors, box model,
+          flexbox, màu sắc và font
+        </li>
+        <li>
+          <strong>Tuần 5-8:</strong> JavaScript cơ bản - variables, functions,
+          DOM manipulation, events
+        </li>
+        <li>
+          <strong>Sau đó:</strong> Làm một dự án nhỏ kết hợp cả 3 thứ
+        </li>
+      </ul>
+
+      <p>
+        <strong>Tài nguyên học mình tìm được:</strong>
+      </p>
+      <ul>
+        <li>
           <a
-            href="https://chatgpt.com/"
+            href="https://www.w3schools.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ChatGPT
+            W3Schools
           </a>{' '}
-          để tạo ra một trang web để lưu lại những gì mình học mỗi ngày, xem như
-          đó là một cuốn nhật ký của mình.
+          - Tài liệu chi tiết, có thể thực hành trực tiếp trên trình duyệt
         </li>
         <li>
-          Mình có đọc document để tạo SSH để thực hiện việc đẩy code lên GitHub.
-          Mình chỉ sử dụng những tính năng cơ bản như là commit, push thôi.
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MDN Web Docs - Learn Web Development
+          </a>{' '}
+          - Tài liệu chính thống và đáng tin cậy nhất
+        </li>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            freeCodeCamp
+          </a>{' '}
+          - Học miễn phí theo bài bản, có chứng chỉ
         </li>
       </ul>
+
+      <h4>Tìm hiểu về cách chia sẻ trang web công khai (Deploy)</h4>
+      <p>
+        Mình muốn người khác có thể xem được trang web này qua internet, không
+        chỉ chạy trên máy mình. Đây gọi là &quot;deploy&quot; hoặc
+        &quot;host&quot; trang web. Mình đã tìm hiểu và biết được một số lựa
+        chọn phổ biến:
+      </p>
+      <ul>
+        <li>
+          <strong>
+            <a
+              href="https://vercel.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vercel
+            </a>
+          </strong>{' '}
+          - Rất phù hợp với Next.js (framework mình đang dùng), deploy miễn phí
+          và tự động khi push code lên GitHub.
+        </li>
+        <li>
+          <strong>
+            <a
+              href="https://pages.github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Pages
+            </a>
+          </strong>{' '}
+          - Miễn phí, dễ dùng, phù hợp cho trang web tĩnh (HTML/CSS/JS thuần).
+        </li>
+        <li>
+          <strong>
+            <a
+              href="https://www.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>
+          </strong>{' '}
+          - Tương tự Vercel, cũng miễn phí và dễ kết nối với GitHub.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Lưu ý:</strong> Mình chưa thực hiện được bước này vì còn một số
+        cấu hình cần tìm hiểu thêm. Mình sẽ dành thời gian nghiên cứu kỹ hơn
+        về Vercel vì nó phù hợp nhất với trang web này. Mục tiêu là deploy được
+        trong tuần tới.
+      </p>
     </>
   ),
 };
 
 export const en: DiaryEntry = {
   date: '2026-03-15',
-  title: 'Starting the journey - What is Software Testing?',
+  title: 'Joining communities, planning HTML/CSS/JS learning, and researching deployment',
   content: (
     <>
       <p>
-        Today I started learning about Software Testing. These are my first
-        notes.
+        Today I spent time joining some web development communities, planning
+        my HTML/CSS/JS learning path, and researching how to share this website
+        publicly.
       </p>
 
-      <h4>What is Software Testing?</h4>
+      <h4>Joining web development communities</h4>
       <p>
-        Software Testing is the process of evaluating and verifying that a
-        software product works as expected.
+        I found and joined several groups and communities related to learning
+        web development. Having a supportive community is very important when
+        you are just starting out.
+      </p>
+      <ul>
+        <li>
+          <strong>Facebook Groups</strong> - I joined groups like &quot;Web
+          Development Vietnam&quot; and &quot;HTML CSS JavaScript Beginners&quot;
+          to ask questions and learn from others&apos; experiences.
+        </li>
+        <li>
+          <strong>Discord servers</strong> - There are many Discord servers for
+          developers. I joined a few to ask questions in real time.
+        </li>
+        <li>
+          <strong>Reddit</strong> - Subreddits like{' '}
+          <a
+            href="https://www.reddit.com/r/learnwebdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            r/learnwebdev
+          </a>{' '}
+          and{' '}
+          <a
+            href="https://www.reddit.com/r/webdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            r/webdev
+          </a>{' '}
+          are very useful for reading questions from others.
+        </li>
+      </ul>
+      <p>
+        <strong>Important note:</strong> When joining communities, I should read
+        before asking. Many questions have already been answered, so I should
+        search the group first to avoid asking something that already has an
+        answer.
       </p>
 
-      <h4>Basic types of testing:</h4>
+      <h4>HTML/CSS/JS Learning Plan</h4>
+      <p>
+        After researching, I learned that HTML, CSS, and JavaScript are the 3
+        core technologies for building a website. Here is how I understand each
+        one:
+      </p>
       <ul>
         <li>
-          <strong>Manual Testing</strong> - Testing done manually by a tester
-          executing test cases
+          <strong>HTML</strong> - The &quot;skeleton&quot; of a webpage. It
+          defines the structure and content (headings, paragraphs, images,
+          links...).
         </li>
         <li>
-          <strong>Automation Testing</strong> - Using tools/scripts to automate
-          the testing process
+          <strong>CSS</strong> - The &quot;clothing&quot;. It controls how the
+          page looks (colors, fonts, layout...).
         </li>
         <li>
-          <strong>Unit Testing</strong> - Testing the smallest units of code
-        </li>
-        <li>
-          <strong>Integration Testing</strong> - Testing interactions between
-          modules
+          <strong>JavaScript</strong> - The &quot;brain&quot;. It makes the
+          page interactive (button clicks, show/hide content, API calls...).
         </li>
       </ul>
 
-      <h4>References:</h4>
-      <ul>
-        <li>
-          <a
-            href="https://www.istqb.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ISTQB - International Software Testing Qualifications Board
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.guru99.com/software-testing.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Guru99 - Software Testing Tutorial
-          </a>
-        </li>
-      </ul>
-
-      <h4>A simple test case example:</h4>
+      <h4>Simple example - Basic HTML:</h4>
       <pre>
-        <code>{`Test Case ID: TC001
-Title: Verify login with valid credentials
-Precondition: Account is already registered
-Steps:
-  1. Open the login page
-  2. Enter a valid email
-  3. Enter the correct password
-  4. Click the "Login" button
-Expected Result: Successfully redirected to the homepage`}</code>
+        <code>{`<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <h1>Hello!</h1>
+    <p>This is my first website.</p>
+    <a href="https://google.com">Go to Google</a>
+  </body>
+</html>`}</code>
       </pre>
 
-      <h4>Tools I used today:</h4>
+      <h4>My self-made learning roadmap:</h4>
       <ul>
         <li>
-          I used{' '}
+          <strong>Week 1-2:</strong> HTML basics - tags, attributes, forms,
+          tables
+        </li>
+        <li>
+          <strong>Week 3-4:</strong> CSS basics - selectors, box model,
+          flexbox, colors and fonts
+        </li>
+        <li>
+          <strong>Week 5-8:</strong> JavaScript basics - variables, functions,
+          DOM manipulation, events
+        </li>
+        <li>
+          <strong>After that:</strong> Build a small project combining all 3
+        </li>
+      </ul>
+
+      <p>
+        <strong>Learning resources I found:</strong>
+      </p>
+      <ul>
+        <li>
           <a
-            href="https://chatgpt.com/"
+            href="https://www.w3schools.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ChatGPT
+            W3Schools
           </a>{' '}
-          to create a website to save what I learn every day, like a personal
-          diary.
+          - Detailed documentation with live practice directly in the browser
         </li>
         <li>
-          I read the documentation to set up SSH for pushing code to GitHub. I
-          only use basic features like commit and push.
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MDN Web Docs - Learn Web Development
+          </a>{' '}
+          - The most authoritative and reliable reference
+        </li>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            freeCodeCamp
+          </a>{' '}
+          - Free structured learning with certificates
         </li>
       </ul>
+
+      <h4>Researching how to share the website publicly (Deployment)</h4>
+      <p>
+        I want others to be able to view this website over the internet, not
+        just on my machine. This is called &quot;deploying&quot; or
+        &quot;hosting&quot; a website. I did some research and found a few
+        popular options:
+      </p>
+      <ul>
+        <li>
+          <strong>
+            <a
+              href="https://vercel.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vercel
+            </a>
+          </strong>{' '}
+          - Great for Next.js (the framework this site uses). Free deployment
+          that triggers automatically when you push code to GitHub.
+        </li>
+        <li>
+          <strong>
+            <a
+              href="https://pages.github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Pages
+            </a>
+          </strong>{' '}
+          - Free and easy to use, ideal for static websites (plain
+          HTML/CSS/JS).
+        </li>
+        <li>
+          <strong>
+            <a
+              href="https://www.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>
+          </strong>{' '}
+          - Similar to Vercel, also free and easy to connect with GitHub.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Note:</strong> I have not been able to complete this step yet
+        because there are still some configurations I need to learn more about.
+        I will spend more time researching Vercel since it is the best fit for
+        this website. My goal is to get it deployed within the next week.
+      </p>
     </>
   ),
 };
