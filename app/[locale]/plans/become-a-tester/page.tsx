@@ -5,6 +5,7 @@ import { getTranslations } from 'next-intl/server';
 import { customGenerateMetadata } from '@/app/utils/page';
 
 // Constants
+import { ROUTES } from '@/app/constants/routes';
 import type { PlanStatus } from '../components/PlanCard';
 
 // Components
@@ -12,7 +13,7 @@ import { Link } from '@/i18n/navigation';
 
 export const generateMetadata = async () => {
   const t = await getTranslations('TesterPlanPage');
-  return customGenerateMetadata({ PATH: '/plans/become-a-tester', TITLE: t('title'), LABEL_KEY: '' });
+  return customGenerateMetadata({ PATH: ROUTES.TESTER_PLAN.PATH, TITLE: t('title'), LABEL_KEY: '' });
 };
 
 type Phase = {

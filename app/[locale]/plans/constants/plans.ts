@@ -1,3 +1,4 @@
+import { ROUTES } from '@/app/constants/routes';
 import type { PlanStatus } from '../components/PlanCard';
 
 export type PlanStaticData = {
@@ -7,5 +8,5 @@ export type PlanStaticData = {
 };
 
 export const PLANS: PlanStaticData[] = [
-  { id: '0', status: 'in-progress', slug: 'become-a-tester' },
+  { id: '0', status: 'in-progress', slug: ROUTES.TESTER_PLAN.PATH.split('/').pop() },
 ];

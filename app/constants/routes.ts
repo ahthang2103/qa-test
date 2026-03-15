@@ -26,4 +26,9 @@ export const ROUTES = {
     TITLE: '',
     LABEL_KEY: 'plans',
   },
+  TESTER_PLAN: {
+    PATH: '/plans/become-a-tester',
+    TITLE: '',
+    LABEL_KEY: 'plans',
+  },
 } as const;
