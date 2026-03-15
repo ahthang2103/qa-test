@@ -96,9 +96,16 @@ export const vi: DiaryEntry = {
         </li>
       </ul>
       <p>
-        Mình đã đọc tài liệu và cài đặt{' '}
-        <strong>SSH Key</strong> để kết nối máy tính với GitHub một cách bảo mật
-        (không cần nhập mật khẩu mỗi lần):
+        Mình đã đọc{' '}
+        <a
+          href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          tài liệu
+        </a>{' '}
+        và cài đặt <strong>SSH Key</strong> để kết nối máy tính với GitHub một
+        cách bảo mật (không cần nhập mật khẩu mỗi lần):
       </p>
       <pre>
         <code>{`# Bước 1: Tạo SSH key trên máy
@@ -280,9 +287,16 @@ export const en: DiaryEntry = {
         </li>
       </ul>
       <p>
-        I read the documentation and set up an{' '}
-        <strong>SSH Key</strong> to securely connect my machine to GitHub
-        (no password needed each time):
+        I read the{' '}
+        <a
+          href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          documentation
+        </a>{' '}
+        and set up an <strong>SSH Key</strong> to securely connect my machine to
+        GitHub (no password needed each time):
       </p>
       <pre>
         <code>{`# Step 1: Generate SSH key on your machine
