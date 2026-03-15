@@ -89,7 +89,8 @@
   },
   "PracticesPage": {
     "title": "Thực hành",
-    "placeholder": "Nội dung sẽ được cập nhật sớm..."
+    "placeholder": "Nội dung sẽ được cập nhật sớm...",
+    "empty": "Tôi chưa thực hành gì cả. Hãy quay lại sau nhé!"
   },
   "PlansPage": {
     "title": "Kế hoạch",

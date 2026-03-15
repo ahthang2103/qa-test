@@ -89,7 +89,8 @@
   },
   "PracticesPage": {
     "title": "Practices",
-    "placeholder": "Content coming soon..."
+    "placeholder": "Content coming soon...",
+    "empty": "I haven't done any practice yet. Check back later!"
   },
   "PlansPage": {
     "title": "Plans",
