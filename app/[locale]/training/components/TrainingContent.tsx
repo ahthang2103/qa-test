@@ -106,7 +106,7 @@ export const TrainingContent = () => {
                 </span>
                 <button
                   onClick={handleShare}
-                  className="flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs text-black/40 transition-colors hover:bg-black/5 hover:text-black/70"
+                  className="flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs text-blue-500 transition-colors hover:bg-blue-50 hover:text-blue-600"
                 >
                   {copied ? t('copied') : t('share')}
                 </button>
