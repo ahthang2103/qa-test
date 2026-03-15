@@ -7,7 +7,10 @@ import { useSearchParams } from 'next/navigation';
 // i18n
 import { useRouter, usePathname } from '@/i18n/navigation';
 
-import { diaryEntries } from '../entries/index';
+// Data
+import { diaryEntries } from '../entries';
+
+// Components
 import { Outline } from './Outline';
 
 const formatDate = (dateStr: string) => {

@@ -9,8 +9,9 @@ export const vi: DiaryEntry = {
     <>
       <p>
         Hôm nay là ngày đầu tiên mình thật sự ngồi xuống và bắt đầu hành trình
-        học. Mình tiếp thu được rất nhiều thuật ngữ mới và cảm thấy cực kỳ hứng
-        thú — như đang mở ra một cánh cửa hoàn toàn mới vậy!
+        học. Vì là thứ 7 nên mình đã dành 12 tiếng tự học trong ngày hôm nay.
+        Mình tiếp thu được rất nhiều thuật ngữ mới và cảm thấy cực kỳ hứng thú
+        - như đang mở ra một cánh cửa hoàn toàn mới vậy!
       </p>
 
       <h4>Một trang web vận hành như thế nào?</h4>
@@ -21,17 +22,17 @@ export const vi: DiaryEntry = {
       </p>
       <ol>
         <li>
-          <strong>Trình duyệt (Browser)</strong> gửi yêu cầu — bạn gõ URL, trình
+          <strong>Trình duyệt (Browser)</strong> gửi yêu cầu - bạn gõ URL, trình
           duyệt bắt đầu xử lý.
         </li>
         <li>
-          <strong>DNS (Domain Name System)</strong> — giống như danh bạ điện
+          <strong>DNS (Domain Name System)</strong> - giống như danh bạ điện
           thoại, chuyển tên miền{' '}
           <code>google.com</code> thành địa chỉ IP như{' '}
           <code>142.250.196.68</code> để máy tính biết tìm đến đâu.
         </li>
         <li>
-          <strong>HTTP / HTTPS Request</strong> — trình duyệt gửi yêu cầu đến
+          <strong>HTTP / HTTPS Request</strong> - trình duyệt gửi yêu cầu đến
           máy chủ. HTTPS là phiên bản bảo mật (có ổ khoá trên thanh địa chỉ).
         </li>
         <li>
@@ -39,7 +40,7 @@ export const vi: DiaryEntry = {
           liệu (thường là HTML, CSS, JavaScript).
         </li>
         <li>
-          <strong>Trình duyệt render</strong> — đọc HTML để dựng cấu trúc trang,
+          <strong>Trình duyệt render</strong> - đọc HTML để dựng cấu trúc trang,
           CSS để trang trí, JavaScript để tạo tương tác.
         </li>
       </ol>
@@ -62,7 +63,7 @@ export const vi: DiaryEntry = {
 
       <h4>Tạo trang web cá nhân để lưu lại hành trình học</h4>
       <p>
-        Mình muốn có một nơi để ghi lại mọi thứ mình học mỗi ngày — vừa như một
+        Mình muốn có một nơi để ghi lại mọi thứ mình học mỗi ngày - vừa như một
         cuốn nhật ký, vừa là bài thực hành thực tế. Mình đã dùng{' '}
         <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
           ChatGPT
@@ -72,7 +73,7 @@ export const vi: DiaryEntry = {
       <p>
         <strong>Tại sao lại là trang web?</strong> Vì mình nghĩ đây là cách tốt
         nhất để vừa luyện tập, vừa có thể chia sẻ với người khác. Mỗi ngày mình
-        học gì, làm gì đều được ghi lại ở đây — chính trang bạn đang đọc lúc
+        học gì, làm gì đều được ghi lại ở đây - chính trang bạn đang đọc lúc
         này!
       </p>
 
@@ -83,15 +84,15 @@ export const vi: DiaryEntry = {
       </p>
       <ul>
         <li>
-          <strong>Git</strong> — công cụ quản lý phiên bản code ngay trên máy
+          <strong>Git</strong> - công cụ quản lý phiên bản code ngay trên máy
           tính của mình (local).
         </li>
         <li>
-          <strong>GitHub</strong> — nền tảng lưu trữ code online, giống như
+          <strong>GitHub</strong> - nền tảng lưu trữ code online, giống như
           Google Drive nhưng dành riêng cho lập trình viên.
         </li>
         <li>
-          <strong>Repository (Repo)</strong> — thư mục dự án được Git quản lý.
+          <strong>Repository (Repo)</strong> - thư mục dự án được Git quản lý.
         </li>
       </ul>
       <p>
@@ -121,7 +122,7 @@ git push             # Đẩy code lên GitHub`}</code>
       <p>
         <strong>Ghi chú:</strong> SSH (Secure Shell) là giao thức bảo mật
         dùng cặp khoá Public/Private. Public key để trên GitHub, Private key giữ
-        trên máy — chỉ máy tính của mình mới có thể xác thực.
+        trên máy - chỉ máy tính của mình mới có thể xác thực.
       </p>
 
       <h4>Lập kế hoạch 6 tháng để trở thành Tester</h4>
@@ -143,40 +144,40 @@ git push             # Đẩy code lên GitHub`}</code>
       </p>
       <ul>
         <li>
-          <strong>Frontend</strong> — giao diện người dùng (những gì bạn nhìn
+          <strong>Frontend</strong> - giao diện người dùng (những gì bạn nhìn
           thấy)
         </li>
         <li>
-          <strong>Backend</strong> — logic xử lý phía sau hậu trường
+          <strong>Backend</strong> - logic xử lý phía sau hậu trường
         </li>
         <li>
-          <strong>Client</strong> — thiết bị/phần mềm gửi yêu cầu (trình duyệt)
+          <strong>Client</strong> - thiết bị/phần mềm gửi yêu cầu (trình duyệt)
         </li>
         <li>
-          <strong>Server</strong> — máy chủ nhận và xử lý yêu cầu
+          <strong>Server</strong> - máy chủ nhận và xử lý yêu cầu
         </li>
         <li>
-          <strong>DNS</strong> — Domain Name System, dịch tên miền thành IP
+          <strong>DNS</strong> - Domain Name System, dịch tên miền thành IP
         </li>
         <li>
-          <strong>HTTP / HTTPS</strong> — giao thức truyền dữ liệu giữa client
+          <strong>HTTP / HTTPS</strong> - giao thức truyền dữ liệu giữa client
           và server
         </li>
         <li>
-          <strong>HTML / CSS / JavaScript</strong> — bộ ba ngôn ngữ xây dựng
+          <strong>HTML / CSS / JavaScript</strong> - bộ ba ngôn ngữ xây dựng
           giao diện web
         </li>
         <li>
-          <strong>Git / GitHub</strong> — quản lý phiên bản và lưu trữ code
+          <strong>Git / GitHub</strong> - quản lý phiên bản và lưu trữ code
         </li>
         <li>
-          <strong>SSH</strong> — giao thức kết nối bảo mật
+          <strong>SSH</strong> - giao thức kết nối bảo mật
         </li>
         <li>
-          <strong>Repository (Repo)</strong> — kho chứa code của dự án
+          <strong>Repository (Repo)</strong> - kho chứa code của dự án
         </li>
         <li>
-          <strong>Commit / Push</strong> — lưu và đẩy code lên cloud
+          <strong>Commit / Push</strong> - lưu và đẩy code lên cloud
         </li>
       </ul>
       <p>
@@ -195,7 +196,7 @@ export const en: DiaryEntry = {
     <>
       <p>
         Today was my very first real study day. I absorbed a ton of new
-        terminology and felt incredibly excited — like opening a whole new door!
+        terminology and felt incredibly excited - like opening a whole new door!
       </p>
 
       <h4>How does a website work?</h4>
@@ -206,16 +207,16 @@ export const en: DiaryEntry = {
       </p>
       <ol>
         <li>
-          <strong>Browser</strong> initiates a request — you type a URL and the
+          <strong>Browser</strong> initiates a request - you type a URL and the
           browser starts processing it.
         </li>
         <li>
-          <strong>DNS (Domain Name System)</strong> — acts like a phone book,
+          <strong>DNS (Domain Name System)</strong> - acts like a phone book,
           translating <code>google.com</code> into an IP address like{' '}
           <code>142.250.196.68</code> so your computer knows where to go.
         </li>
         <li>
-          <strong>HTTP / HTTPS Request</strong> — the browser sends a request to
+          <strong>HTTP / HTTPS Request</strong> - the browser sends a request to
           the server. HTTPS is the secure version (the padlock in the address
           bar).
         </li>
@@ -224,7 +225,7 @@ export const en: DiaryEntry = {
           back data (usually HTML, CSS, and JavaScript).
         </li>
         <li>
-          <strong>Browser renders</strong> — reads HTML for structure, CSS for
+          <strong>Browser renders</strong> - reads HTML for structure, CSS for
           styling, and JavaScript for interactivity.
         </li>
       </ol>
@@ -247,7 +248,7 @@ export const en: DiaryEntry = {
 
       <h4>Building a personal website to document my journey</h4>
       <p>
-        I wanted a place to record everything I learn each day — part diary,
+        I wanted a place to record everything I learn each day - part diary,
         part hands-on practice. I used{' '}
         <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
           ChatGPT
@@ -257,7 +258,7 @@ export const en: DiaryEntry = {
       <p>
         <strong>Why a website?</strong> Because I think it&apos;s the best way
         to both practice and share what I learn. Everything I study and do each
-        day gets recorded here — on the very page you&apos;re reading now!
+        day gets recorded here - on the very page you&apos;re reading now!
       </p>
 
       <h4>Storing code with GitHub and configuring SSH</h4>
@@ -267,15 +268,15 @@ export const en: DiaryEntry = {
       </p>
       <ul>
         <li>
-          <strong>Git</strong> — a version control tool that runs locally on my
+          <strong>Git</strong> - a version control tool that runs locally on my
           machine.
         </li>
         <li>
-          <strong>GitHub</strong> — an online platform for storing code, like
+          <strong>GitHub</strong> - an online platform for storing code, like
           Google Drive but built for developers.
         </li>
         <li>
-          <strong>Repository (Repo)</strong> — a project folder managed by Git.
+          <strong>Repository (Repo)</strong> - a project folder managed by Git.
         </li>
       </ul>
       <p>
@@ -305,7 +306,7 @@ git push             # Push code up to GitHub`}</code>
       <p>
         <strong>Note:</strong> SSH (Secure Shell) uses a Public/Private key
         pair. The public key lives on GitHub; the private key stays on your
-        machine — only your computer can authenticate.
+        machine - only your computer can authenticate.
       </p>
 
       <h4>Creating a 6-month plan to become a Tester</h4>
@@ -327,44 +328,44 @@ git push             # Push code up to GitHub`}</code>
       </p>
       <ul>
         <li>
-          <strong>Frontend</strong> — the user interface (what you see on screen)
+          <strong>Frontend</strong> - the user interface (what you see on screen)
         </li>
         <li>
-          <strong>Backend</strong> — the processing logic running behind the
+          <strong>Backend</strong> - the processing logic running behind the
           scenes
         </li>
         <li>
-          <strong>Client</strong> — the device/software making requests (the
+          <strong>Client</strong> - the device/software making requests (the
           browser)
         </li>
         <li>
-          <strong>Server</strong> — the machine that receives and handles
+          <strong>Server</strong> - the machine that receives and handles
           requests
         </li>
         <li>
-          <strong>DNS</strong> — Domain Name System, translates domain names to
+          <strong>DNS</strong> - Domain Name System, translates domain names to
           IP addresses
         </li>
         <li>
-          <strong>HTTP / HTTPS</strong> — protocols for transferring data between
+          <strong>HTTP / HTTPS</strong> - protocols for transferring data between
           client and server
         </li>
         <li>
-          <strong>HTML / CSS / JavaScript</strong> — the trio of languages for
+          <strong>HTML / CSS / JavaScript</strong> - the trio of languages for
           building web interfaces
         </li>
         <li>
-          <strong>Git / GitHub</strong> — version control and code storage
+          <strong>Git / GitHub</strong> - version control and code storage
         </li>
         <li>
-          <strong>SSH</strong> — secure connection protocol
+          <strong>SSH</strong> - secure connection protocol
         </li>
         <li>
-          <strong>Repository (Repo)</strong> — the container that holds a
+          <strong>Repository (Repo)</strong> - the container that holds a
           project&apos;s code
         </li>
         <li>
-          <strong>Commit / Push</strong> — save and upload code to the cloud
+          <strong>Commit / Push</strong> - save and upload code to the cloud
         </li>
       </ul>
       <p>
