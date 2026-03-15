@@ -94,7 +94,12 @@
   },
   "PlansPage": {
     "title": "Plans",
-    "placeholder": "Content coming soon..."
+    "placeholder": "Content coming soon...",
+    "status": {
+      "planned": "Planned",
+      "in-progress": "In Progress",
+      "completed": "Completed"
+    }
   },
   "Footer": {
     "rights": "All rights reserved."

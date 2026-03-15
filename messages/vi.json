@@ -94,7 +94,12 @@
   },
   "PlansPage": {
     "title": "Kế hoạch",
-    "placeholder": "Nội dung sẽ được cập nhật sớm..."
+    "placeholder": "Nội dung sẽ được cập nhật sớm...",
+    "status": {
+      "planned": "Dự kiến",
+      "in-progress": "Đang thực hiện",
+      "completed": "Hoàn thành"
+    }
   },
   "Footer": {
     "rights": "Tất cả quyền được bảo lưu."
