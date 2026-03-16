@@ -286,6 +286,7 @@
     }
   },
   "Footer": {
+    "copyright": "© {year} {name}.",
     "rights": "Tất cả quyền được bảo lưu."
   },
   "HomePage": {

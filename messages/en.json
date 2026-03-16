@@ -286,6 +286,7 @@
     }
   },
   "Footer": {
+    "copyright": "© {year} {name}.",
     "rights": "All rights reserved."
   },
   "HomePage": {
