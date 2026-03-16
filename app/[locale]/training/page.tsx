@@ -1,5 +1,5 @@
 // Utils
-import { customGenerateMetadata } from '@/app/utils/page';
+import { customGenerateMetadata } from '@/app/utils/pages';
 
 // Constants
 import { ROUTES } from '@/app/constants/routes';

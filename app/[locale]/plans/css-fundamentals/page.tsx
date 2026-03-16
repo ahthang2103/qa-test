@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 // Utils
-import { customGenerateMetadata } from '@/app/utils/page';
+import { customGenerateMetadata } from '@/app/utils/pages';
 
 // Constants
 import { ROUTES } from '@/app/constants/routes';
@@ -13,7 +13,11 @@ import { Link } from '@/i18n/navigation';
 
 export const generateMetadata = async () => {
   const t = await getTranslations('CssPlanPage');
-  return customGenerateMetadata({ PATH: ROUTES.CSS_PLAN.PATH, TITLE: t('title'), LABEL_KEY: '' });
+  return customGenerateMetadata({
+    PATH: ROUTES.CSS_PLAN.PATH,
+    TITLE: t('title'),
+    LABEL_KEY: '',
+  });
 };
 
 type Day = {
@@ -49,7 +53,9 @@ const CssPlan = () => {
       </Link>
 
       <h1 className="mt-4 mb-3 text-2xl font-semibold">{t('title')}</h1>
-      <p className="mb-10 text-sm text-black/60 leading-relaxed">{t('overview')}</p>
+      <p className="mb-10 text-sm text-black/60 leading-relaxed">
+        {t('overview')}
+      </p>
 
       <h2 className="mb-5 text-base font-semibold">{t('scheduleTitle')}</h2>
 
@@ -58,16 +64,24 @@ const CssPlan = () => {
           <div key={key} className="rounded-lg border border-black/10 p-5">
             <div className="mb-1 flex items-center justify-between gap-3">
               <div className="flex items-center gap-2">
-                <span className="text-xs font-medium text-black/40">Day {number}</span>
+                <span className="text-xs font-medium text-black/40">
+                  Day {number}
+                </span>
                 <span className="text-xs text-black/30">·</span>
-                <span className="text-xs text-black/40">{t(`${key}.period`)}</span>
+                <span className="text-xs text-black/40">
+                  {t(`${key}.period`)}
+                </span>
               </div>
-              <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${statusStyles[status]}`}>
+              <span
+                className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${statusStyles[status]}`}
+              >
                 {tPlans(`status.${status}`)}
               </span>
             </div>
 
-            <h3 className="mb-2 text-base font-semibold leading-snug">{t(`${key}.title`)}</h3>
+            <h3 className="mb-2 text-base font-semibold leading-snug">
+              {t(`${key}.title`)}
+            </h3>
 
             <p className="mb-4 text-sm text-black/60">{t(`${key}.goal`)}</p>
 

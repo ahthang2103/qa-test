@@ -13,7 +13,7 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 
 // Utils
-import { customGenerateMetadata } from '../utils/page';
+import { customGenerateMetadata } from '../utils/pages';
 
 // Constants
 import { ROUTES } from '../constants/routes';
