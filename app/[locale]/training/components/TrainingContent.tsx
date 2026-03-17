@@ -67,8 +67,20 @@ export const TrainingContent = () => {
       } catch {
         // User cancelled or share failed — do nothing
       }
-    } else {
+    } else if (navigator.clipboard) {
       await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } else {
+      // Fallback for insecure contexts where clipboard API is unavailable
+      const textArea = document.createElement('textarea');
+      textArea.value = url;
+      textArea.style.position = 'fixed';
+      textArea.style.opacity = '0';
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     }
