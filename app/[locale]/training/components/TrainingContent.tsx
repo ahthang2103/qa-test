@@ -58,7 +58,8 @@ export const TrainingContent = () => {
   }, [isVisible]);
 
   const handleShare = async () => {
-    const url = window.location.href;
+    const base = `${window.location.origin}/${locale}${pathname}`;
+    const url = activeDate ? `${base}?date=${activeDate}` : base;
     const title = selectedEntry?.title ?? t('title');
 
     if (navigator.share) {
