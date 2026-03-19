@@ -4,21 +4,21 @@ import { DiaryEntry } from './types';
 
 export const vi: DiaryEntry = {
   date: '2026-03-14',
-  title: 'Ngày 1 - Trang web hoạt động thế nào? GitHub, SSH và kế hoạch 6 tháng',
+  title:
+    'Ngày 1 - Trang web hoạt động thế nào? GitHub, SSH và kế hoạch 6 tháng',
   content: (
     <>
       <p>
         Hôm nay là ngày đầu tiên mình thật sự ngồi xuống và bắt đầu hành trình
-        học. Vì là thứ 7 nên mình đã dành 12 tiếng tự học trong ngày hôm nay.
-        Mình tiếp thu được rất nhiều thuật ngữ mới và cảm thấy cực kỳ hứng thú
-        - như đang mở ra một cánh cửa hoàn toàn mới vậy!
+        học. Mình tiếp thu được rất nhiều thuật ngữ mới và cảm thấy cực kỳ hứng
+        thú - như đang mở ra một cánh cửa hoàn toàn mới vậy!
       </p>
 
       <h4>Một trang web vận hành như thế nào?</h4>
       <p>
-        Mình đã tự hỏi: khi gõ{' '}
-        <code>google.com</code> vào trình duyệt thì chuyện gì xảy ra? Sau khi
-        research, mình hiểu được luồng hoạt động cơ bản như sau:
+        Mình đã tự hỏi: khi gõ <code>google.com</code> vào trình duyệt thì
+        chuyện gì xảy ra? Sau khi research, mình hiểu được luồng hoạt động cơ
+        bản như sau:
       </p>
       <ol>
         <li>
@@ -27,8 +27,7 @@ export const vi: DiaryEntry = {
         </li>
         <li>
           <strong>DNS (Domain Name System)</strong> - giống như danh bạ điện
-          thoại, chuyển tên miền{' '}
-          <code>google.com</code> thành địa chỉ IP như{' '}
+          thoại, chuyển tên miền <code>google.com</code> thành địa chỉ IP như{' '}
           <code>142.250.196.68</code> để máy tính biết tìm đến đâu.
         </li>
         <li>
@@ -56,16 +55,20 @@ export const vi: DiaryEntry = {
 [Browser hiển thị trang web]`}</code>
       </pre>
       <p>
-        <strong>Ghi chú:</strong> Frontend là phần người dùng nhìn thấy
-        (HTML, CSS, JS). Backend là phần xử lý phía sau (database, logic nghiệp
-        vụ). Một trang web hoàn chỉnh cần cả hai phối hợp với nhau.
+        <strong>Ghi chú:</strong> Frontend là phần người dùng nhìn thấy (HTML,
+        CSS, JS). Backend là phần xử lý phía sau (database, logic nghiệp vụ).
+        Một trang web hoàn chỉnh cần cả hai phối hợp với nhau.
       </p>
 
       <h4>Tạo trang web cá nhân để lưu lại hành trình học</h4>
       <p>
         Mình muốn có một nơi để ghi lại mọi thứ mình học mỗi ngày - vừa như một
         cuốn nhật ký, vừa là bài thực hành thực tế. Mình đã dùng{' '}
-        <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://chatgpt.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           ChatGPT
         </a>{' '}
         để hỗ trợ tạo ra trang web này.
@@ -127,9 +130,9 @@ git commit -m "..."  # Lưu lại snapshot với mô tả
 git push             # Đẩy code lên GitHub`}</code>
       </pre>
       <p>
-        <strong>Ghi chú:</strong> SSH (Secure Shell) là giao thức bảo mật
-        dùng cặp khoá Public/Private. Public key để trên GitHub, Private key giữ
-        trên máy - chỉ máy tính của mình mới có thể xác thực.
+        <strong>Ghi chú:</strong> SSH (Secure Shell) là giao thức bảo mật dùng
+        cặp khoá Public/Private. Public key để trên GitHub, Private key giữ trên
+        máy - chỉ máy tính của mình mới có thể xác thực.
       </p>
 
       <h4>Lập kế hoạch 6 tháng để trở thành Tester</h4>
@@ -208,9 +211,8 @@ export const en: DiaryEntry = {
 
       <h4>How does a website work?</h4>
       <p>
-        I wondered: what actually happens when you type{' '}
-        <code>google.com</code> into a browser? After some research, I
-        understood the basic flow:
+        I wondered: what actually happens when you type <code>google.com</code>{' '}
+        into a browser? After some research, I understood the basic flow:
       </p>
       <ol>
         <li>
@@ -248,16 +250,20 @@ export const en: DiaryEntry = {
 [Browser displays the page]`}</code>
       </pre>
       <p>
-        <strong>Note:</strong> The Frontend is what users see (HTML, CSS,
-        JS). The Backend handles logic behind the scenes (databases, business
-        logic). A complete website needs both working together.
+        <strong>Note:</strong> The Frontend is what users see (HTML, CSS, JS).
+        The Backend handles logic behind the scenes (databases, business logic).
+        A complete website needs both working together.
       </p>
 
       <h4>Building a personal website to document my journey</h4>
       <p>
         I wanted a place to record everything I learn each day - part diary,
         part hands-on practice. I used{' '}
-        <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://chatgpt.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           ChatGPT
         </a>{' '}
         to help me build this website.
@@ -342,7 +348,8 @@ git push             # Push code up to GitHub`}</code>
       </p>
       <ul>
         <li>
-          <strong>Frontend</strong> - the user interface (what you see on screen)
+          <strong>Frontend</strong> - the user interface (what you see on
+          screen)
         </li>
         <li>
           <strong>Backend</strong> - the processing logic running behind the
@@ -361,8 +368,8 @@ git push             # Push code up to GitHub`}</code>
           IP addresses
         </li>
         <li>
-          <strong>HTTP / HTTPS</strong> - protocols for transferring data between
-          client and server
+          <strong>HTTP / HTTPS</strong> - protocols for transferring data
+          between client and server
         </li>
         <li>
           <strong>HTML / CSS / JavaScript</strong> - the trio of languages for
@@ -384,7 +391,8 @@ git push             # Push code up to GitHub`}</code>
       </ul>
       <p>
         I feel incredibly pumped after this first day! There&apos;s so much to
-        learn, but every new term I understand gives me a real sense of progress.
+        learn, but every new term I understand gives me a real sense of
+        progress.
       </p>
     </>
   ),
