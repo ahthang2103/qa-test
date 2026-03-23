@@ -37,7 +37,7 @@ export const customGenerateMetadata = async (
       type: 'website',
       images: [
         {
-          url: 'https://fast.image.delivery/papwvgf.png?source=image.delivery',
+          url: 'https://fast.image.delivery/demhbjk.png',
         },
       ],
     },
