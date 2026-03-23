@@ -1,39 +1,102 @@
 # Thang Do 2026 New Challenge
 
-A personal portfolio documenting my journey of transitioning from an economics background to becoming a software tester in 2026 — including learning notes, practice exercises, and testing projects.
+Website cá nhân ghi lại hành trình học tập, làm việc và phát triển của mình trong lĩnh vực **Software Testing**.  
+Dự án này được xây dựng dựa trên template ban đầu và đã được chỉnh sửa lại theo nội dung, định hướng và portfolio cá nhân của mình.
 
-## Tech Stack
+## Giới thiệu
 
-- **Framework:** [Next.js](https://nextjs.org) 16 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS 4
-- **Internationalization:** next-intl (English & Vietnamese)
-- **Package Manager:** pnpm
+Website này được tạo ra như một nơi để mình:
 
-## Getting Started
+- giới thiệu bản thân và mục tiêu nghề nghiệp
+- ghi lại quá trình học tập
+- tổng hợp kiến thức đã học
+- lưu các bài thực hành và dự án luyện tập
+- xây dựng kế hoạch học tập và lộ trình phát triển trong ngành Testing
 
-### Prerequisites
+Hiện tại website hỗ trợ nhiều ngôn ngữ:
 
-- Node.js 18+
-- pnpm
+- Tiếng Việt
+- Tiếng Anh
+- Tiếng Hàn
 
-### Installation
+## Các trang chính
+
+### 1. Trang chủ
+
+Giới thiệu ngắn về bản thân, định hướng nghề nghiệp và lý do xây dựng website.
+
+### 2. Giới thiệu
+
+Hiển thị:
+
+- thông tin cá nhân
+- mục tiêu nghề nghiệp
+- kỹ năng hiện có
+- kinh nghiệm làm việc
+
+### 3. Quá trình học tập
+
+Nơi lưu lại các bài viết/nghiên cứu/ngày học của mình trong quá trình tự học Testing.
+
+### 4. Tổng hợp kiến thức
+
+Trang dùng để tổng hợp các kiến thức quan trọng đã học và ghi chú lại theo chủ đề.
+
+### 5. Thực hành
+
+Nơi lưu các bài thực hành, ví dụ test case, bug report, project luyện tập hoặc các bài tập mô phỏng công việc thực tế.
+
+### 6. Kế hoạch
+
+Hiển thị roadmap học tập và các kế hoạch học theo từng chủ đề như:
+
+- HTML
+- CSS
+- JavaScript
+- lộ trình trở thành Tester trong 6 tháng
+
+## Công nghệ sử dụng
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **next-intl** để hỗ trợ đa ngôn ngữ
+
+## Cấu trúc thư mục chính
 
 ```bash
-pnpm install
-```
+app/
+  [locale]/
+    about/
+    knowledge/
+    plans/
+    practices/
+    training/
+    layout.tsx
+    page.tsx
 
-### Development
+components/
+  Footer/
+  Header/
+  Introduction/
+  LanguageSwitcher/
+  Logo/
+  PageLinks/
+  ScrollToTop/
 
-```bash
-pnpm dev
-```
+constants/
+  app.ts
+  routes.ts
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
+i18n/
+  request.ts
+  routing.ts
 
-### Build
+messages/
+  vi.json
+  en.json
+  kr.json
 
-```bash
-pnpm build
-pnpm start
+
 ```
