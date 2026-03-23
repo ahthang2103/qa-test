@@ -7,6 +7,7 @@ const pages = [
   { key: 'about', href: '/about' },
   { key: 'training', href: '/training' },
   { key: 'practices', href: '/practices' },
+  { key: 'knowledge', href: '/knowledge' },
   { key: 'plans', href: '/plans' },
 ] as const;
 

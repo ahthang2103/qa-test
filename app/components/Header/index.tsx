@@ -12,7 +12,15 @@ import { ROUTES } from '@/app/constants/routes';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { Logo } from '../Logo';
 
-const navItems = [ROUTES.HOME, ROUTES.ABOUT, ROUTES.TRAINING, ROUTES.PRACTICES, ROUTES.PLANS];
+const navItems = 
+[
+  ROUTES.HOME, 
+  ROUTES.ABOUT, 
+  ROUTES.TRAINING, 
+  ROUTES.KNOWLEDGE, 
+  ROUTES.PRACTICES, 
+  ROUTES.PLANS
+];
 
 export const Header = () => {
   const t = useTranslations('Header');

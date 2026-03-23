@@ -2,23 +2,24 @@
   "Header": {
     "home": "Home",
     "about": "About",
-    "education": "Training",
+    "education": "Learning Journey",
     "practices": "Practices",
+    "knowledge": "Knowledge Summary",
     "plans": "Plans"
   },
   "Introduction": {
-    "p1": "Hello everyone, thank you for reading my post. My name is <bold>Nguyen Ha Vy</bold>.",
-    "p2": "I graduated from a university of Economics in 2025. At the time of writing this, it is 2026, and I am working an office job unrelated to the IT field. My daily tasks mainly involve data entry, compiling data from Excel, and processing documents.",
-    "p3": "However, after working for a while, I realized that my current job does not offer many long-term growth opportunities. Additionally, the company has been trending toward downsizing, which made me start thinking more seriously about a new career path.",
-    "p4": "After doing some research, I decided to pursue a career as a <bold>Tester</bold> in the IT field. However, I must admit that my starting point is quite low:",
-    "li1": "I have no IT background.",
-    "li2": "I don't know anyone in the industry who could give me advice or guidance.",
-    "li3": "And at this point, I have virtually no knowledge about IT in general and Testing in particular.",
-    "p5": "Previously, I posted a few articles in the <link><bold>Testing VN</bold></link> group on Facebook to ask for advice. I received both encouragement and practical, thoughtful feedback from people in the industry. Those opinions left me somewhat uncertain, but they also helped me understand that the road ahead would not be easy.",
-    "p6": "Right now, what I can do is start with my own effort. Due to limited finances, I cannot yet enroll in paid courses, so my plan is to self-study in the evenings and on weekends to gradually learn and build a foundation of knowledge in Testing.",
-    "p7": "I wrote this post hoping to receive more advice, shared experiences, or learning guidance from those who are currently working in the industry. Any input would be incredibly valuable to me at this point.",
-    "p8": "I created this site to record my entire learning journey and career transition into Testing, like a study journal to track my progress over time.",
-    "p9": "Thank you everyone for taking the time to read this 🥰."
+    "p1": "Hello everyone, thank you for visiting my website. My name is <bold>Do Quyet Thang</bold>.",
+    "p2": "I graduated from FPT University in 2024. At the time I am writing this, it is 2026, and I am currently working as a Tester. My daily work mainly includes checking tickets on Jira, writing test cases, and performing manual testing, mostly regression testing.",
+    "p3": "However, after working for a while, I realized that my current job does not offer many long-term growth opportunities. The role mainly focuses on internal company work, so I have not had many chances to learn more deeply about modern testing tools and techniques. That made me feel that I need to find a clearer direction to develop myself further in the IT field.",
+    "p4": "Back when I was still a student, I had already realized that I was not a good fit for my major, which made me lose motivation and direction for a while. After graduation, I tried several jobs related to IT, but they still did not feel truly suitable. In the end, I decided to move into Testing because I believe this field offers many growth opportunities and matches my strengths better.",
+    "li1": "My IT foundation is still weak.",
+    "li2": "I am not good at coding, and my basic knowledge is still limited.",
+    "li3": "If I want to grow further as a tester, I need to relearn and strengthen my knowledge seriously."
+  ,
+    "p5": "At the moment, I am focusing on rebuilding my fundamentals and improving the skills I need to pursue Testing in a more serious and sustainable way.",
+    "p6": "This website is where I record my learning journey, work experience, and what I have accumulated while following the Testing path.",
+    "p7": "I see this as a small milestone to track my own progress and prepare myself better for the road ahead.",
+    "p8": "Thank you for taking the time to visit and read my story."
   },
   "PageLinks": {
     "about": {
@@ -26,7 +27,7 @@
       "description": "Learn more about me and my journey."
     },
     "training": {
-      "title": "Training",
+      "title": "Learning Journey",
       "description": "My learning progress and study notes."
     },
     "practices": {
@@ -35,56 +36,79 @@
     },
     "plans": {
       "title": "Plans",
-      "description": "My training plans and learning roadmap."
+      "description": "My learning plans and roadmap."
+    },
+    "knowledge": {
+      "title": "Knowledge Summary",
+      "description": "A summary of the knowledge I have learned and notes."
     }
   },
   "AboutPage": {
     "title": "About",
     "profile": {
       "title": "Personal Information",
-      "name": "Nguyen Ha Vy",
-      "birthYear": "2003",
-      "hometown": "Dong Ha, Quang Tri",
+      "name": "Do Quyet Thang",
+      "birthYear": "2001",
+      "hometown": "Vinh Phuc, Phu Tho",
       "labelName": "Full name",
       "labelBirthYear": "Year of birth",
       "labelHometown": "Hometown"
     },
     "goals": {
       "title": "Career Goals",
-      "shortTerm": "Land my first job as a Tester",
-      "longTerm": "Become a professional Tester with solid skills in systematic and effective software testing",
+      "shortTerm": "Manual Tester",
+      "longTerm": "Automation Tester, Software Development Engineer in Test (SDET)",
       "labelShortTerm": "Short-term",
       "labelLongTerm": "Long-term"
     },
     "skills": {
       "title": "Current Skills",
       "items": {
-        "excel": "Proficient in Excel: data entry, compilation, and processing",
-        "detail": "Meticulous and detail-oriented in handling documents and records",
-        "document": "Office document and record management"
+        "Jira": "Jira: creating tickets, tracking progress, and managing work effectively",
+        "SQL": "SQL: basic database querying and data handling (Join, Group By, Having, Subquery)",
+        "ISTQB": "Process knowledge: understanding the Software Testing Life Cycle (STLC) and Software Development Life Cycle (SDLC)"
       }
     },
-    "educationTitle": "Education",
-    "education": {
-      "university": {
-        "period": "2021 - 2025",
-        "school": "Hue University of Economics (HUE)",
-        "description": "Graduated in 2025"
+    "experienceTitle": "Work Experience",
+    "experience": {
+      "wisewires": {
+        "period": "8/2024 - Present",
+        "company": "Wisewires Co., Ltd.",
+        "role": "Junior Manual Tester",
+        "tasks": [
+          "Checked tickets on Jira, tracked progress, and coordinated work with the team.",
+          "Wrote test cases and performed manual testing, mainly regression testing.",
+          "Tested payment-related features, business workflows, and system changes.",
+          "Verified UI and user experience across related screens and functions.",
+          "Reported bugs, tracked issues, and re-tested after fixes were delivered by developers."
+        ]
       },
-      "highSchool": {
-        "period": "2018 - 2021",
-        "school": "Le Quy Don Gifted High School",
-        "location": "Dong Ha, Quang Tri"
+      "fptAcademy": {
+        "period": "11/2023 - 7/2024",
+        "company": "FPT Academy",
+        "role": "Fresher Korean BrSE",
+        "tasks": [
+          "Joined a training program focused on BrSE orientation and working skills in the IT environment.",
+          "Improved Korean for professional use and workplace communication skills.",
+          "Learned about the software development process and collaboration between teams in a project.",
+          "Became familiar with business documents, technical documents, and requirement communication."
+        ]
       },
-      "middleSchool": {
-        "period": "2014 - 2018",
-        "school": "Tran Hung Dao Middle School",
-        "location": "Dong Ha, Quang Tri"
+      "ltsGroup": {
+        "period": "8/2022 - 10/2022",
+        "company": "LTS Group",
+        "role": "Intern Tester / Data Annotator",
+        "tasks": [
+          "Supported testing-related tasks and data processing work based on instructions.",
+          "Learned the basics of the software testing process and bug reporting.",
+          "Improved attention to detail, observation skills, and task execution based on project requirements.",
+          "Worked with the team to complete assigned tasks on time."
+        ]
       }
     }
   },
   "TrainingPage": {
-    "title": "Training",
+    "title": "Learning Journey",
     "placeholder": "Content coming soon...",
     "share": "Share",
     "copied": "Copied!"
@@ -92,7 +116,7 @@
   "PracticesPage": {
     "title": "Practices",
     "placeholder": "Content coming soon...",
-    "empty": "I haven't done any practice yet. Check back later!"
+    "empty": "I haven't done any practice yet. Please check back later."
   },
   "PlansPage": {
     "title": "Plans",
@@ -110,28 +134,28 @@
         "topics": ["Roadmap", "Self-study", "6 Months"]
       },
       "1": {
+        "title": "HTML Fundamentals",
+        "description": "Learn the building blocks of the web — document structure, semantic elements, forms, and accessibility basics.",
+        "period": "Mar 15 – Mar 19, 2026",
+        "topics": ["HTML", "5 Days", "Web Basics"]
+      },
+      "2": {
         "title": "CSS Fundamentals",
         "description": "Learn how to style web pages using selectors, the box model, flexbox, grid, and responsive design principles.",
         "period": "Mar 20 – Mar 23, 2026",
         "topics": ["CSS", "4 Days", "Styling"]
       },
-      "2": {
+      "3": {
         "title": "JavaScript Fundamentals",
-        "description": "Learn the core concepts of JavaScript — variables, functions, DOM manipulation, events, and async programming.",
+        "description": "Learn the core concepts of JavaScript — variables, functions, DOM manipulation, events, and asynchronous programming.",
         "period": "Mar 24 – Mar 30, 2026",
         "topics": ["JavaScript", "1 Week", "Programming"]
-      },
-      "3": {
-        "title": "HTML Fundamentals",
-        "description": "Learn the building blocks of the web — document structure, semantic elements, forms, and accessibility basics.",
-        "period": "Mar 15 – Mar 19, 2026",
-        "topics": ["HTML", "5 Days", "Web Basics"]
       }
     }
   },
   "TesterPlanPage": {
     "title": "Become a Tester in 6 Months",
-    "overview": "A self-study roadmap for transitioning into a QA/Tester role from scratch. No IT background, no budget for paid courses — just consistent effort in evenings and weekends.",
+    "overview": "A self-study roadmap for transitioning into a QA/Tester role from scratch. No strong IT background and no budget for paid courses — just steady effort in the evenings and on weekends.",
     "roadmapTitle": "Learning Roadmap",
     "backToPlans": "Back to Plans",
     "phase1": {
@@ -140,28 +164,28 @@
       "goal": "Understand what testing is, its role in software development, and essential QA concepts.",
       "topics": [
         "Types of testing",
-        "Test lifecycle (STLC)",
+        "Software Testing Life Cycle (STLC)",
         "Bug reporting",
         "QA vs QC",
-        "Test documentation basics"
+        "Basic test documentation"
       ]
     },
     "phase2": {
       "title": "Manual Testing & Test Case Design",
       "period": "Month 2–3 · Apr – May 2026",
-      "goal": "Write effective test cases and test plans, and apply black-box and white-box testing techniques.",
+      "goal": "Learn how to write effective test cases and test plans, and apply black-box and white-box testing techniques.",
       "topics": [
-        "Test case writing",
+        "Writing test cases",
         "Test plan & test report",
         "Black-box techniques",
         "White-box techniques",
-        "Equivalence partitioning & boundary analysis"
+        "Equivalence partitioning & boundary value analysis"
       ]
     },
     "phase3": {
       "title": "API Testing with Postman",
       "period": "Month 3–4 · May – Jun 2026",
-      "goal": "Get hands-on with REST APIs: sending requests, writing assertions, and organizing test collections.",
+      "goal": "Practice REST API testing: sending requests, writing assertions, and organizing collections.",
       "topics": [
         "REST API concepts",
         "Postman basics",
@@ -173,23 +197,23 @@
     "phase4": {
       "title": "Automation Testing Basics",
       "period": "Month 4–5 · Jun – Jul 2026",
-      "goal": "Learn to write basic automated UI tests using free, widely-used tools.",
+      "goal": "Learn to write basic automated UI tests using popular free tools.",
       "topics": [
-        "Why automation testing",
+        "Why automation testing matters",
         "Selenium WebDriver basics",
-        "Playwright introduction",
+        "Introduction to Playwright",
         "Writing simple test scripts",
-        "Running and reading test results"
+        "Running tests and reading results"
       ]
     },
     "phase5": {
       "title": "SQL & Database Testing",
       "period": "Month 5 · Jul 2026",
-      "goal": "Understand how to validate data at the database level using basic SQL queries.",
+      "goal": "Understand how to verify data at the database level using basic SQL queries.",
       "topics": [
         "Basic SQL (SELECT, WHERE, JOIN)",
         "Verifying data after test actions",
-        "Common database test scenarios"
+        "Common database testing scenarios"
       ]
     },
     "phase6": {
@@ -200,20 +224,20 @@
         "CV writing for testers",
         "Portfolio on GitHub",
         "Common interview questions",
-        "Mock bug reports & test cases",
+        "Sample bug reports & test cases",
         "Applying for junior positions"
       ]
     }
   },
   "HtmlPlanPage": {
     "title": "HTML Fundamentals",
-    "overview": "A 5-day plan to learn the core building blocks of the web. Covers document structure, semantic HTML, forms, media, and accessibility basics.",
+    "overview": "A 5-day plan to learn the basic building blocks of the web. It covers document structure, semantic HTML, forms, media, and accessibility basics.",
     "scheduleTitle": "Learning Schedule",
     "backToPlans": "Back to Plans",
     "day1": {
       "title": "Document Structure & Core Tags",
       "period": "Day 1 · Mar 15, 2026",
-      "goal": "Understand how an HTML document is structured and learn the most common tags.",
+      "goal": "Understand the structure of an HTML document and learn the most commonly used tags.",
       "topics": [
         "DOCTYPE & html/head/body",
         "Headings & paragraphs",
@@ -237,7 +261,7 @@
     "day3": {
       "title": "Forms & Input Types",
       "period": "Day 3 · Mar 17, 2026",
-      "goal": "Build interactive forms using various input types and understand form submission basics.",
+      "goal": "Build interactive forms using different input types and understand the basics of form submission.",
       "topics": [
         "form, label, input",
         "Text, email, password, number",
@@ -249,7 +273,7 @@
     "day4": {
       "title": "Tables, Media & Embedding",
       "period": "Day 4 · Mar 18, 2026",
-      "goal": "Display structured data with tables and embed media such as images, video, and audio.",
+      "goal": "Display structured data with tables and embed media such as images, videos, and audio.",
       "topics": [
         "table, thead, tbody, tr, td",
         "img with alt text",
@@ -261,10 +285,10 @@
     "day5": {
       "title": "Accessibility & Best Practices",
       "period": "Day 5 · Mar 19, 2026",
-      "goal": "Write accessible, clean HTML that works well for all users and assistive technologies.",
+      "goal": "Write accessible and clean HTML that works well for all users and assistive technologies.",
       "topics": [
         "ARIA roles & attributes",
-        "alt text for images",
+        "Alt text for images",
         "Keyboard navigation",
         "Logical heading hierarchy",
         "HTML validation"
@@ -273,7 +297,7 @@
   },
   "CssPlanPage": {
     "title": "CSS Fundamentals",
-    "overview": "A 4-day plan to learn how to style web pages. Covers the box model, flexbox, grid, responsive design, and basic animations.",
+    "overview": "A 4-day plan to learn how to style web pages. It covers the box model, flexbox, grid, responsive design, and basic animations.",
     "scheduleTitle": "Learning Schedule",
     "backToPlans": "Back to Plans",
     "day1": {
@@ -291,7 +315,7 @@
     "day2": {
       "title": "Flexbox",
       "period": "Day 2 · Mar 21, 2026",
-      "goal": "Use flexbox to build one-dimensional layouts with flexible, responsive behavior.",
+      "goal": "Use flexbox to build one-dimensional layouts with flexible and responsive behavior.",
       "topics": [
         "display: flex",
         "flex-direction & flex-wrap",
@@ -315,7 +339,7 @@
     "day4": {
       "title": "Transitions, Animations & CSS Variables",
       "period": "Day 4 · Mar 23, 2026",
-      "goal": "Add motion and dynamic theming to pages using CSS transitions, keyframe animations, and custom properties.",
+      "goal": "Add motion and dynamic styling using CSS transitions, keyframe animations, and custom properties.",
       "topics": [
         "transition property",
         "@keyframes & animation",
@@ -327,7 +351,7 @@
   },
   "JsPlanPage": {
     "title": "JavaScript Fundamentals",
-    "overview": "A 1-week plan to learn the core concepts of JavaScript. Covers variables, functions, DOM manipulation, events, and async programming.",
+    "overview": "A 1-week plan to learn the core concepts of JavaScript. It covers variables, functions, DOM manipulation, events, and asynchronous programming.",
     "scheduleTitle": "Learning Schedule",
     "backToPlans": "Back to Plans",
     "day1": {
@@ -369,7 +393,7 @@
     "day4": {
       "title": "DOM Manipulation",
       "period": "Day 4 · Mar 27, 2026",
-      "goal": "Read and modify HTML elements and styles directly from JavaScript.",
+      "goal": "Read and modify HTML elements and styles directly using JavaScript.",
       "topics": [
         "querySelector & getElementById",
         "innerHTML, textContent",
@@ -381,7 +405,7 @@
     "day5": {
       "title": "Events",
       "period": "Day 5 · Mar 28, 2026",
-      "goal": "Respond to user interactions like clicks, inputs, and keyboard actions.",
+      "goal": "Respond to user interactions such as clicks, inputs, and keyboard actions.",
       "topics": [
         "addEventListener",
         "click, input, submit events",
@@ -391,7 +415,7 @@
       ]
     },
     "day6": {
-      "title": "Async Programming",
+      "title": "Asynchronous Programming",
       "period": "Day 6 · Mar 29, 2026",
       "goal": "Understand asynchronous JavaScript and how to fetch data from APIs.",
       "topics": [

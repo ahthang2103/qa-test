@@ -16,6 +16,11 @@ export const ROUTES = {
     TITLE: '',
     LABEL_KEY: 'education',
   },
+  KNOWLEDGE: {
+    PATH: '/knowledge',
+    TITLE: '',
+    LABEL_KEY: 'knowledge',
+  },
   PRACTICES: {
     PATH: '/practices',
     TITLE: '',

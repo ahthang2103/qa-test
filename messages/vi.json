@@ -3,21 +3,22 @@
     "home": "Trang chủ",
     "about": "Giới thiệu",
     "education": "Quá trình tự học",
+    "knowledge": "Tổng hợp kiến thức",
     "practices": "Thực hành",
     "plans": "Kế hoạch"
   },
   "Introduction": {
-    "p1": "Xin chào anh chị và các bạn đã ghé đọc bài viết của mình. Mình là <bold>Nguyễn Hạ Vy</bold>.",
-    "p2": "Mình tốt nghiệp trường Kinh tế vào năm 2025. Hiện tại, thời điểm mình viết những dòng này là năm 2026, và mình đang làm một công việc văn phòng không liên quan đến lĩnh vực IT. Công việc hằng ngày của mình chủ yếu là nhập liệu, tổng hợp dữ liệu từ Excel và xử lý chứng từ.",
-    "p3": "Tuy nhiên, sau một thời gian làm việc, mình nhận thấy công việc hiện tại không có nhiều cơ hội phát triển lâu dài. Bên cạnh đó, công ty cũng đang có xu hướng cắt giảm nhân sự, điều này khiến mình bắt đầu suy nghĩ nghiêm túc hơn về một hướng đi mới cho tương lai.",
-    "p4": "Sau khi tìm hiểu, mình đã quyết định định hướng trở thành một <bold>Tester</bold> trong lĩnh vực IT. Tuy vậy, mình phải thừa nhận rằng xuất phát điểm của mình khá thấp:",
-    "li1": "Mình không có nền tảng IT.",
-    "li2": "Mình không quen ai trong ngành để có thể hỏi hoặc định hướng.",
-    "li3": "Và tại thời điểm này, mình gần như chưa có kiến thức gì về IT nói chung và Testing nói riêng.",
+    "p1": "Xin chào anh chị và các bạn đã ghé đọc bài viết của mình. Mình là <bold>Đỗ Quyết Thắng</bold>.",
+    "p2": "Mình tốt nghiệp trường đại học FPT vào năm 2024. Hiện tại, thời điểm mình viết những dòng này là năm 2026, và mình đang là một Tester. Công việc hằng ngày của mình chủ yếu là check các ticket trên Jira, viết test case, thực hiện kiểm thử thủ công ( chủ yếu là regression testing). Mình đã làm việc trong lĩnh vực này được khoảng 1 năm rồi.",
+    "p3": "Tuy nhiên, sau một thời gian làm việc, mình nhận thấy công việc hiện tại không có nhiều cơ hội phát triển lâu dài. Công việc làm trên phần mềm nội bộ của công ty, không có nhiều cơ hội để mình học hỏi thêm về các công cụ và kỹ thuật kiểm thử hiện đại. Mình cảm thấy mình cần phải tìm một hướng đi mới để phát triển bản thân hơn nữa trong lĩnh vực IT.",
+    "p4": "Khi còn là sinh viên mình mới nhận ra mình không phù hợp với ngành IT, dẫn đến mình lười học và không có định hướng rõ ràng. Sau khi tốt nghiệp, mình đã thử làm một số công việc liên quan đến IT nhưng vẫn cảm thấy không phù hợp. Cuối cùng, mình quyết định chuyển sang lĩnh vực Testing vì mình thấy đây là một lĩnh vực có nhiều cơ hội phát triển và phù hợp với kỹ năng của mình.",
+    "li1": "Mình bị hổng kiến thức IT.",
+    "li2": "Mình không giỏi coding, bị mất căn bản.",
+    "li3": "Mình muốn theo nghề tester muốn phát triển hơn thì bắt buộc phải học lại nghiêm túc các kiến thức về Testing.",
     "p5": "Trước đó mình có đăng một vài bài viết trong nhóm <link><bold>Testing VN</bold></link> trên Facebook để xin lời khuyên. Mình nhận được cả những lời động viên lẫn những chia sẻ thực tế và cân nhắc từ các anh chị và các bạn trong ngành. Những ý kiến đó khiến mình có phần hoang mang, nhưng đồng thời cũng giúp mình hiểu rằng con đường phía trước không hề dễ dàng.",
-    "p6": "Hiện tại, điều mình có thể làm là bắt đầu từ sự cố gắng của bản thân. Do điều kiện tài chính còn hạn chế, mình chưa thể tham gia các khóa học tốn phí, nên kế hoạch của mình là tự học vào buổi tối và cuối tuần để từng bước tìm hiểu và xây dựng nền tảng kiến thức cho lĩnh vực Testing.",
-    "p7": "Mình viết bài này với mong muốn nhận được thêm những lời khuyên, chia sẻ kinh nghiệm hoặc định hướng học tập từ anh chị và các bạn đã và đang làm trong ngành. Bất kỳ chia sẻ nào cũng sẽ rất quý giá đối với mình ở thời điểm hiện tại.",
-    "p8": "Trang web này mình tạo ra với mục đích ghi lại toàn bộ quá trình học tập, tìm hiểu và chuyển hướng sang lĩnh vực Testing của bản thân, như một cuốn nhật ký học tập để theo dõi sự tiến bộ của mình theo thời gian.",
+    "p6": "Hiện tại, mình xác định cần học bài bản hơn để phát triển lâu dài với nghề Tester. Mình muốn củng cố lại kiến thức nền tảng, rèn luyện tư duy kiểm thử và làm quen thêm với các công cụ, quy trình đang được sử dụng trong công việc thực tế.",
+    "p7": "Website này là nơi mình ghi lại hành trình học tập, kinh nghiệm làm việc và quá trình hoàn thiện bản thân trong lĩnh vực Testing. Mình muốn dùng nơi này như một portfolio nhỏ để theo dõi sự tiến bộ của mình theo thời gian.",
+    "p8": "Mình hy vọng trong quá trình xây dựng website này, mình sẽ có cơ hội nhìn lại những gì đã làm được, những gì còn thiếu và từng bước hoàn thiện kỹ năng để tiến xa hơn trên con đường nghề nghiệp.",
     "p9": "Cảm ơn mọi người đã dành thời gian đọc ạ 🥰."
   },
   "PageLinks": {
@@ -29,6 +30,10 @@
       "title": "Quá trình học tập",
       "description": "Tiến trình học tập và ghi chú của mình."
     },
+    "knowledge": {
+      "title": "Tổng hợp kiến thức",
+      "description": "Tổng hợp các kiến thức đã học và ghi chú."
+    },
     "practices": {
       "title": "Thực hành",
       "description": "Các bài tập thực hành và dự án luyện tập."
@@ -37,57 +42,82 @@
       "title": "Kế hoạch",
       "description": "Kế hoạch học tập và lộ trình training."
     }
+    
   },
   "AboutPage": {
-    "title": "Giới thiệu",
-    "profile": {
-      "title": "Thông tin cá nhân",
-      "name": "Nguyễn Hạ Vy",
-      "birthYear": "2003",
-      "hometown": "Đông Hà, Quảng Trị",
-      "labelName": "Họ tên",
-      "labelBirthYear": "Năm sinh",
-      "labelHometown": "Quê quán"
-    },
-    "goals": {
-      "title": "Mục tiêu nghề nghiệp",
-      "shortTerm": "Tìm được công việc Tester đầu tiên",
-      "longTerm": "Trở thành một Tester chuyên nghiệp, có khả năng kiểm thử phần mềm một cách bài bản và hiệu quả",
-      "labelShortTerm": "Ngắn hạn",
-      "labelLongTerm": "Dài hạn"
-    },
-    "skills": {
-      "title": "Kỹ năng hiện có",
-      "items": {
-        "excel": "Thành thạo Excel: nhập liệu, tổng hợp và xử lý dữ liệu",
-        "detail": "Tỉ mỉ, cẩn thận với chi tiết trong xử lý chứng từ và tài liệu",
-        "document": "Xử lý và quản lý hồ sơ, chứng từ văn phòng"
-      }
-    },
-    "educationTitle": "Quá trình học tập",
-    "education": {
-      "university": {
-        "period": "2021 - 2025",
-        "school": "Trường Đại học Kinh tế Huế (HUE)",
-        "description": "Tốt nghiệp năm 2025"
-      },
-      "highSchool": {
-        "period": "2018 - 2021",
-        "school": "THPT Chuyên Lê Quý Đôn",
-        "location": "Đông Hà, Quảng Trị"
-      },
-      "middleSchool": {
-        "period": "2014 - 2018",
-        "school": "Trường THCS Trần Hưng Đạo",
-        "location": "Đông Hà, Quảng Trị"
-      }
+  "title": "Giới thiệu",
+  "profile": {
+    "title": "Thông tin cá nhân",
+    "name": "Đỗ Quyết Thắng",
+    "birthYear": "2001",
+    "hometown": "Vĩnh Phúc, Phú Thọ",
+    "labelName": "Họ tên",
+    "labelBirthYear": "Năm sinh",
+    "labelHometown": "Quê quán"
+  },
+  "goals": {
+    "title": "Mục tiêu nghề nghiệp",
+    "shortTerm": "Manual Tester",
+    "longTerm": "Automation Tester, Software Development Engineer in Test (SDET)",
+    "labelShortTerm": "Ngắn hạn",
+    "labelLongTerm": "Dài hạn"
+  },
+  "skills": {
+    "title": "Kỹ năng hiện có",
+    "items": {
+      "Jira": "Jira: tạo ticket, theo dõi tiến độ và quản lý công việc hiệu quả",
+      "SQL": "SQL: truy vấn và quản lý dữ liệu cơ sở dữ liệu cơ bản (Join, Group By, Having, Subquery)",
+      "ISTQB": "Quy trình: Hiểu quy trình kiểm thử phần mềm (STLC) và vòng đời phát triển phần mềm (SDLC)"
     }
   },
+  "experienceTitle": "Kinh nghiệm làm việc",
+  "experience": {
+    "wisewires": {
+      "period": "8/2024 - Nay",
+      "company": "Wisewires Co. Ltd",
+      "role": "Junior Manual Tester",
+      "tasks": [
+        "Check ticket trên Jira, theo dõi tiến độ và phối hợp xử lý công việc với team.",
+        "Viết test case và thực hiện kiểm thử thủ công, chủ yếu là regression testing.",
+        "Thực hiện test các chức năng thanh toán, luồng nghiệp vụ và các thay đổi của hệ thống.",
+        "Kiểm tra giao diện và trải nghiệm người dùng trên các màn hình/chức năng liên quan.",
+        "Báo lỗi, theo dõi lỗi và xác nhận lại sau khi dev fix."
+      ]
+    },
+    "fptAcademy": {
+      "period": "11/2023 - 7/2024",
+      "company": "FPT Academy",
+      "role": "Fresher Korean BrSE",
+      "tasks": [
+        "Tham gia chương trình đào tạo định hướng BrSE và kỹ năng làm việc trong môi trường IT.",
+        "Rèn luyện tiếng Hàn chuyên ngành và kỹ năng giao tiếp trong công việc.",
+        "Tìm hiểu quy trình phát triển phần mềm và cách phối hợp giữa các bộ phận trong dự án.",
+        "Làm quen với tài liệu nghiệp vụ, tài liệu kỹ thuật và cách truyền đạt yêu cầu."
+      ]
+    },
+    "ltsGroup": {
+      "period": "8/2022 - 10/2022",
+      "company": "LTS Group",
+      "role": "Intern Tester / Data Annotator",
+      "tasks": [
+        "Hỗ trợ các công việc liên quan đến kiểm thử và xử lý dữ liệu theo hướng dẫn.",
+        "Làm quen với quy trình kiểm thử phần mềm cơ bản và cách ghi nhận lỗi.",
+        "Rèn luyện tính cẩn thận, khả năng quan sát và xử lý công việc theo yêu cầu dự án.",
+        "Phối hợp với team để hoàn thành các đầu việc được giao đúng thời hạn."
+      ]
+    }
+  }
+},
   "TrainingPage": {
     "title": "Quá trình học tập",
     "placeholder": "Nội dung sẽ được cập nhật sớm...",
     "share": "Chia sẻ",
     "copied": "Đã sao chép!"
+  },
+  "KnowledgePage": {
+    "title": "Tổng hợp kiến thức",
+    "placeholder": "Nội dung sẽ được cập nhật sớm...",
+    "empty": "Mình chưa tổng hợp gì cả. Hãy quay lại sau nhé!"
   },
   "PracticesPage": {
     "title": "Thực hành",
