@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { PageLinks } from '@/app/components/PageLinks';
 
 const KnowledgePage = () => {
-  const t = useTranslations('Knowledge');
+  const t = useTranslations('KnowledgePage');
 
   return (
     <div className="w-full max-w-2xl py-12">
