@@ -110,22 +110,22 @@
         "topics": ["Lộ trình", "Tự học", "6 Tháng"]
       },
       "1": {
-        "title": "Kiến thức cơ bản về HTML",
-        "description": "Học các thành phần nền tảng của web — cấu trúc tài liệu, các phần tử ngữ nghĩa, biểu mẫu và kiến thức cơ bản về accessibility.",
-        "period": "15/03 – 19/03/2026",
-        "topics": ["HTML", "5 Ngày", "Web Basics"]
-      },
-      "2": {
         "title": "Kiến thức cơ bản về CSS",
         "description": "Học cách tạo kiểu cho trang web bằng selector, box model, flexbox, grid và các nguyên tắc thiết kế responsive.",
         "period": "20/03 – 23/03/2026",
         "topics": ["CSS", "4 Ngày", "Tạo kiểu"]
       },
-      "3": {
+      "2": {
         "title": "Kiến thức cơ bản về JavaScript",
         "description": "Học các khái niệm cốt lõi của JavaScript — biến, hàm, thao tác DOM, sự kiện và lập trình bất đồng bộ.",
         "period": "24/03 – 30/03/2026",
         "topics": ["JavaScript", "1 Tuần", "Lập trình"]
+      },
+      "3": {
+        "title": "Kiến thức cơ bản về HTML",
+        "description": "Học các thành phần nền tảng của web — cấu trúc tài liệu, các phần tử ngữ nghĩa, biểu mẫu và kiến thức cơ bản về accessibility.",
+        "period": "15/03 – 19/03/2026",
+        "topics": ["HTML", "5 Ngày", "Web Basics"]
       }
     }
   },
@@ -138,37 +138,71 @@
       "title": "Kiến thức cơ bản về Kiểm thử phần mềm",
       "period": "Tháng 1–2 · Tháng 3 – Tháng 4 năm 2026",
       "goal": "Hiểu kiểm thử là gì, vai trò của nó trong phát triển phần mềm và các khái niệm QA cơ bản.",
-      "topics": ["Các loại kiểm thử", "Vòng đời kiểm thử (STLC)", "Báo cáo lỗi", "QA vs QC", "Cơ bản về tài liệu kiểm thử"]
+      "topics": [
+        "Các loại kiểm thử",
+        "Vòng đời kiểm thử (STLC)",
+        "Báo cáo lỗi",
+        "QA vs QC",
+        "Cơ bản về tài liệu kiểm thử"
+      ]
     },
     "phase2": {
       "title": "Kiểm thử thủ công & Thiết kế Test Case",
       "period": "Tháng 2–3 · Tháng 4 – Tháng 5 năm 2026",
       "goal": "Viết test case và test plan hiệu quả, áp dụng các kỹ thuật kiểm thử hộp đen và hộp trắng.",
-      "topics": ["Viết test case", "Test plan & test report", "Kỹ thuật hộp đen", "Kỹ thuật hộp trắng", "Phân vùng tương đương & phân tích giá trị biên"]
+      "topics": [
+        "Viết test case",
+        "Test plan & test report",
+        "Kỹ thuật hộp đen",
+        "Kỹ thuật hộp trắng",
+        "Phân vùng tương đương & phân tích giá trị biên"
+      ]
     },
     "phase3": {
       "title": "Kiểm thử API với Postman",
       "period": "Tháng 3–4 · Tháng 5 – Tháng 6 năm 2026",
       "goal": "Thực hành với REST API: gửi request, viết assertion và tổ chức các bộ kiểm thử.",
-      "topics": ["Khái niệm REST API", "Cơ bản Postman", "HTTP methods & status codes", "Viết assertion", "Quản lý Collection & Environment"]
+      "topics": [
+        "Khái niệm REST API",
+        "Cơ bản Postman",
+        "HTTP methods & status codes",
+        "Viết assertion",
+        "Quản lý Collection & Environment"
+      ]
     },
     "phase4": {
       "title": "Kiến thức cơ bản về Kiểm thử tự động",
       "period": "Tháng 4–5 · Tháng 6 – Tháng 7 năm 2026",
       "goal": "Học viết các bài kiểm thử UI tự động cơ bản bằng các công cụ phổ biến và miễn phí.",
-      "topics": ["Tại sao cần kiểm thử tự động", "Cơ bản Selenium WebDriver", "Giới thiệu Playwright", "Viết script kiểm thử đơn giản", "Chạy và đọc kết quả kiểm thử"]
+      "topics": [
+        "Tại sao cần kiểm thử tự động",
+        "Cơ bản Selenium WebDriver",
+        "Giới thiệu Playwright",
+        "Viết script kiểm thử đơn giản",
+        "Chạy và đọc kết quả kiểm thử"
+      ]
     },
     "phase5": {
       "title": "SQL & Kiểm thử cơ sở dữ liệu",
       "period": "Tháng 5 · Tháng 7 năm 2026",
       "goal": "Hiểu cách xác thực dữ liệu ở tầng cơ sở dữ liệu bằng các câu lệnh SQL cơ bản.",
-      "topics": ["SQL cơ bản (SELECT, WHERE, JOIN)", "Xác minh dữ liệu sau các thao tác kiểm thử", "Các kịch bản kiểm thử cơ sở dữ liệu phổ biến"]
+      "topics": [
+        "SQL cơ bản (SELECT, WHERE, JOIN)",
+        "Xác minh dữ liệu sau các thao tác kiểm thử",
+        "Các kịch bản kiểm thử cơ sở dữ liệu phổ biến"
+      ]
     },
     "phase6": {
       "title": "Chuẩn bị xin việc",
       "period": "Tháng 6 · Tháng 8 năm 2026",
       "goal": "Xây dựng portfolio, chuẩn bị CV và sẵn sàng cho phỏng vấn vị trí Tester junior.",
-      "topics": ["Viết CV cho Tester", "Portfolio trên GitHub", "Câu hỏi phỏng vấn thường gặp", "Bug report & test case mẫu", "Ứng tuyển vị trí junior"]
+      "topics": [
+        "Viết CV cho Tester",
+        "Portfolio trên GitHub",
+        "Câu hỏi phỏng vấn thường gặp",
+        "Bug report & test case mẫu",
+        "Ứng tuyển vị trí junior"
+      ]
     }
   },
   "HtmlPlanPage": {
@@ -180,31 +214,61 @@
       "title": "Cấu trúc tài liệu & Các thẻ cơ bản",
       "period": "Ngày 1 · 15/03/2026",
       "goal": "Hiểu cấu trúc của một tài liệu HTML và học các thẻ phổ biến nhất.",
-      "topics": ["DOCTYPE & html/head/body", "Tiêu đề & đoạn văn", "Liên kết & hình ảnh", "Danh sách (ul, ol, li)", "Phần tử inline vs block"]
+      "topics": [
+        "DOCTYPE & html/head/body",
+        "Tiêu đề & đoạn văn",
+        "Liên kết & hình ảnh",
+        "Danh sách (ul, ol, li)",
+        "Phần tử inline vs block"
+      ]
     },
     "day2": {
       "title": "HTML ngữ nghĩa",
       "period": "Ngày 2 · 16/03/2026",
       "goal": "Học viết HTML có ý nghĩa bằng cách sử dụng các phần tử ngữ nghĩa giúp cải thiện khả năng đọc và SEO.",
-      "topics": ["header, nav, main, footer", "section & article", "aside & figure", "Tại sao ngữ nghĩa quan trọng", "Thay thế div bằng thẻ ngữ nghĩa"]
+      "topics": [
+        "header, nav, main, footer",
+        "section & article",
+        "aside & figure",
+        "Tại sao ngữ nghĩa quan trọng",
+        "Thay thế div bằng thẻ ngữ nghĩa"
+      ]
     },
     "day3": {
       "title": "Biểu mẫu & Các loại Input",
       "period": "Ngày 3 · 17/03/2026",
       "goal": "Xây dựng biểu mẫu tương tác với nhiều loại input và hiểu cơ bản về việc gửi form.",
-      "topics": ["form, label, input", "Text, email, password, number", "Radio, checkbox, select", "Textarea & button", "Thuộc tính validation của form"]
+      "topics": [
+        "form, label, input",
+        "Text, email, password, number",
+        "Radio, checkbox, select",
+        "Textarea & button",
+        "Thuộc tính validation của form"
+      ]
     },
     "day4": {
       "title": "Bảng, Media & Nhúng nội dung",
       "period": "Ngày 4 · 18/03/2026",
       "goal": "Hiển thị dữ liệu có cấu trúc bằng bảng và nhúng media như hình ảnh, video và âm thanh.",
-      "topics": ["table, thead, tbody, tr, td", "img với alt text", "Phần tử video & audio", "Cơ bản về iframe", "Ảnh responsive với srcset"]
+      "topics": [
+        "table, thead, tbody, tr, td",
+        "img với alt text",
+        "Phần tử video & audio",
+        "Cơ bản về iframe",
+        "Ảnh responsive với srcset"
+      ]
     },
     "day5": {
       "title": "Accessibility & Thực hành tốt",
       "period": "Ngày 5 · 19/03/2026",
       "goal": "Viết HTML sạch, dễ tiếp cận, hoạt động tốt cho tất cả người dùng và công nghệ hỗ trợ.",
-      "topics": ["ARIA roles & attributes", "Alt text cho hình ảnh", "Điều hướng bằng bàn phím", "Cấu trúc tiêu đề hợp lý", "Kiểm tra HTML hợp lệ"]
+      "topics": [
+        "ARIA roles & attributes",
+        "Alt text cho hình ảnh",
+        "Điều hướng bằng bàn phím",
+        "Cấu trúc tiêu đề hợp lý",
+        "Kiểm tra HTML hợp lệ"
+      ]
     }
   },
   "CssPlanPage": {
@@ -216,25 +280,49 @@
       "title": "Selector, Specificity & Box Model",
       "period": "Ngày 1 · 20/03/2026",
       "goal": "Hiểu cách áp dụng các quy tắc CSS và box model kiểm soát bố cục và khoảng cách như thế nào.",
-      "topics": ["Selector type, class, ID", "Pseudo-class & pseudo-element", "Specificity & cascade", "Margin, padding, border", "box-sizing: border-box"]
+      "topics": [
+        "Selector type, class, ID",
+        "Pseudo-class & pseudo-element",
+        "Specificity & cascade",
+        "Margin, padding, border",
+        "box-sizing: border-box"
+      ]
     },
     "day2": {
       "title": "Flexbox",
       "period": "Ngày 2 · 21/03/2026",
       "goal": "Dùng flexbox để xây dựng bố cục một chiều linh hoạt và responsive.",
-      "topics": ["display: flex", "flex-direction & flex-wrap", "justify-content & align-items", "flex-grow, shrink, basis", "Xây dựng navbar với flexbox"]
+      "topics": [
+        "display: flex",
+        "flex-direction & flex-wrap",
+        "justify-content & align-items",
+        "flex-grow, shrink, basis",
+        "Xây dựng navbar với flexbox"
+      ]
     },
     "day3": {
       "title": "Grid & Thiết kế Responsive",
       "period": "Ngày 3 · 22/03/2026",
       "goal": "Tạo bố cục hai chiều với CSS Grid và làm cho trang web thích ứng với các kích thước màn hình khác nhau.",
-      "topics": ["display: grid", "grid-template-columns & rows", "gap, span, placement", "Media queries", "Cách tiếp cận mobile-first"]
+      "topics": [
+        "display: grid",
+        "grid-template-columns & rows",
+        "gap, span, placement",
+        "Media queries",
+        "Cách tiếp cận mobile-first"
+      ]
     },
     "day4": {
       "title": "Transition, Animation & CSS Variables",
       "period": "Ngày 4 · 23/03/2026",
       "goal": "Thêm chuyển động và chủ đề động vào trang web bằng CSS transition, animation keyframe và custom properties.",
-      "topics": ["Thuộc tính transition", "@keyframes & animation", "transform (translate, scale, rotate)", "CSS custom properties (--var)", "Hiệu ứng hover & focus"]
+      "topics": [
+        "Thuộc tính transition",
+        "@keyframes & animation",
+        "transform (translate, scale, rotate)",
+        "CSS custom properties (--var)",
+        "Hiệu ứng hover & focus"
+      ]
     }
   },
   "JsPlanPage": {
@@ -246,43 +334,85 @@
       "title": "Biến, Kiểu dữ liệu & Toán tử",
       "period": "Ngày 1 · 24/03/2026",
       "goal": "Hiểu các thành phần cơ bản của JavaScript: cách lưu trữ và làm việc với dữ liệu.",
-      "topics": ["var, let, const", "String, number, boolean, null, undefined", "Toán tử số học & so sánh", "Ép kiểu (type coercion)", "console.log & debug cơ bản"]
+      "topics": [
+        "var, let, const",
+        "String, number, boolean, null, undefined",
+        "Toán tử số học & so sánh",
+        "Ép kiểu (type coercion)",
+        "console.log & debug cơ bản"
+      ]
     },
     "day2": {
       "title": "Luồng điều khiển & Hàm",
       "period": "Ngày 2 · 25/03/2026",
       "goal": "Kiểm soát luồng chương trình với điều kiện và vòng lặp, tổ chức code thành các hàm có thể tái sử dụng.",
-      "topics": ["if/else & switch", "Vòng lặp for, while, for...of", "Khai báo hàm & biểu thức hàm", "Arrow function", "Scope & hoisting"]
+      "topics": [
+        "if/else & switch",
+        "Vòng lặp for, while, for...of",
+        "Khai báo hàm & biểu thức hàm",
+        "Arrow function",
+        "Scope & hoisting"
+      ]
     },
     "day3": {
       "title": "Mảng & Object",
       "period": "Ngày 3 · 26/03/2026",
       "goal": "Làm việc với tập hợp dữ liệu bằng mảng và object, bao gồm các phương thức built-in phổ biến.",
-      "topics": ["Phương thức mảng (map, filter, reduce)", "Destructuring", "Spread & rest operator", "Thuộc tính & phương thức object", "Duyệt qua object"]
+      "topics": [
+        "Phương thức mảng (map, filter, reduce)",
+        "Destructuring",
+        "Spread & rest operator",
+        "Thuộc tính & phương thức object",
+        "Duyệt qua object"
+      ]
     },
     "day4": {
       "title": "Thao tác DOM",
       "period": "Ngày 4 · 27/03/2026",
       "goal": "Đọc và chỉnh sửa các phần tử HTML và style trực tiếp từ JavaScript.",
-      "topics": ["querySelector & getElementById", "innerHTML, textContent", "classList (add, remove, toggle)", "createElement & appendChild", "Chỉnh sửa attribute & style"]
+      "topics": [
+        "querySelector & getElementById",
+        "innerHTML, textContent",
+        "classList (add, remove, toggle)",
+        "createElement & appendChild",
+        "Chỉnh sửa attribute & style"
+      ]
     },
     "day5": {
       "title": "Sự kiện (Events)",
       "period": "Ngày 5 · 28/03/2026",
       "goal": "Phản hồi các tương tác của người dùng như click, nhập liệu và thao tác bàn phím.",
-      "topics": ["addEventListener", "Sự kiện click, input, submit", "Event object & preventDefault", "Event delegation", "Sự kiện bàn phím"]
+      "topics": [
+        "addEventListener",
+        "Sự kiện click, input, submit",
+        "Event object & preventDefault",
+        "Event delegation",
+        "Sự kiện bàn phím"
+      ]
     },
     "day6": {
       "title": "Lập trình bất đồng bộ",
       "period": "Ngày 6 · 29/03/2026",
       "goal": "Hiểu JavaScript bất đồng bộ và cách lấy dữ liệu từ API.",
-      "topics": ["Callback & event loop", "Promise (.then, .catch)", "async/await", "fetch API", "Xử lý trạng thái loading & lỗi"]
+      "topics": [
+        "Callback & event loop",
+        "Promise (.then, .catch)",
+        "async/await",
+        "fetch API",
+        "Xử lý trạng thái loading & lỗi"
+      ]
     },
     "day7": {
       "title": "ES6+ & Thực hành",
       "period": "Ngày 7 · 30/03/2026",
       "goal": "Ôn lại cú pháp JavaScript hiện đại và áp dụng mọi thứ đã học vào một dự án nhỏ.",
-      "topics": ["Template literals", "Module (import/export)", "Optional chaining & nullish coalescing", "localStorage cơ bản", "Mini project: Danh sách việc cần làm"]
+      "topics": [
+        "Template literals",
+        "Module (import/export)",
+        "Optional chaining & nullish coalescing",
+        "localStorage cơ bản",
+        "Mini project: Danh sách việc cần làm"
+      ]
     }
   },
   "Footer": {
