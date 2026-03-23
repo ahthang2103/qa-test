@@ -1,4 +1,4 @@
-# Ha Vy 2026 New Challenge
+# Thang Do 2026 New Challenge
 
 A personal portfolio documenting my journey of transitioning from an economics background to becoming a software tester in 2026 — including learning notes, practice exercises, and testing projects.
 
