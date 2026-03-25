@@ -42,72 +42,71 @@
       "title": "Kế hoạch",
       "description": "Kế hoạch học tập và lộ trình training."
     }
-    
   },
   "AboutPage": {
-  "title": "Giới thiệu",
-  "profile": {
-    "title": "Thông tin cá nhân",
-    "name": "Đỗ Quyết Thắng",
-    "birthYear": "2001",
-    "hometown": "Vĩnh Phúc, Phú Thọ",
-    "labelName": "Họ tên",
-    "labelBirthYear": "Năm sinh",
-    "labelHometown": "Quê quán"
-  },
-  "goals": {
-    "title": "Mục tiêu nghề nghiệp",
-    "shortTerm": "Manual Tester",
-    "longTerm": "Automation Tester, Software Development Engineer in Test (SDET)",
-    "labelShortTerm": "Ngắn hạn",
-    "labelLongTerm": "Dài hạn"
-  },
-  "skills": {
-    "title": "Kỹ năng hiện có",
-    "items": {
-      "Jira": "Jira: tạo ticket, theo dõi tiến độ và quản lý công việc hiệu quả",
-      "SQL": "SQL: truy vấn và quản lý dữ liệu cơ sở dữ liệu cơ bản (Join, Group By, Having, Subquery)",
-      "ISTQB": "Quy trình: Hiểu quy trình kiểm thử phần mềm (STLC) và vòng đời phát triển phần mềm (SDLC)"
+    "title": "Giới thiệu",
+    "profile": {
+      "title": "Thông tin cá nhân",
+      "name": "Đỗ Quyết Thắng",
+      "birthYear": "2001",
+      "hometown": "Vĩnh Phúc, Phú Thọ",
+      "labelName": "Họ tên",
+      "labelBirthYear": "Năm sinh",
+      "labelHometown": "Quê quán"
+    },
+    "goals": {
+      "title": "Mục tiêu nghề nghiệp",
+      "shortTerm": "Manual Tester",
+      "longTerm": "Automation Tester, Software Development Engineer in Test (SDET)",
+      "labelShortTerm": "Ngắn hạn",
+      "labelLongTerm": "Dài hạn"
+    },
+    "skills": {
+      "title": "Kỹ năng hiện có",
+      "items": {
+        "Jira": "Jira: tạo ticket, theo dõi tiến độ và quản lý công việc hiệu quả",
+        "SQL": "SQL: truy vấn và quản lý dữ liệu cơ sở dữ liệu cơ bản (Join, Group By, Having, Subquery)",
+        "ISTQB": "Quy trình: Hiểu quy trình kiểm thử phần mềm (STLC) và vòng đời phát triển phần mềm (SDLC)"
+      }
+    },
+    "experienceTitle": "Kinh nghiệm làm việc",
+    "experience": {
+      "wisewires": {
+        "period": "8/2024 - Nay",
+        "company": "Wisewires Co. Ltd",
+        "role": "Junior Manual Tester",
+        "tasks": [
+          "Check ticket trên Jira, theo dõi tiến độ và phối hợp xử lý công việc với team.",
+          "Viết test case và thực hiện kiểm thử thủ công, chủ yếu là regression testing.",
+          "Thực hiện test các chức năng thanh toán, luồng nghiệp vụ và các thay đổi của hệ thống.",
+          "Kiểm tra giao diện và trải nghiệm người dùng trên các màn hình/chức năng liên quan.",
+          "Báo lỗi, theo dõi lỗi và xác nhận lại sau khi dev fix."
+        ]
+      },
+      "fptAcademy": {
+        "period": "11/2023 - 7/2024",
+        "company": "FPT Academy",
+        "role": "Fresher Korean BrSE",
+        "tasks": [
+          "Tham gia chương trình đào tạo định hướng BrSE và kỹ năng làm việc trong môi trường IT.",
+          "Rèn luyện tiếng Hàn chuyên ngành và kỹ năng giao tiếp trong công việc.",
+          "Tìm hiểu quy trình phát triển phần mềm và cách phối hợp giữa các bộ phận trong dự án.",
+          "Làm quen với tài liệu nghiệp vụ, tài liệu kỹ thuật và cách truyền đạt yêu cầu."
+        ]
+      },
+      "ltsGroup": {
+        "period": "8/2022 - 10/2022",
+        "company": "LTS Group",
+        "role": "Intern Tester / Data Annotator",
+        "tasks": [
+          "Hỗ trợ các công việc liên quan đến kiểm thử và xử lý dữ liệu theo hướng dẫn.",
+          "Làm quen với quy trình kiểm thử phần mềm cơ bản và cách ghi nhận lỗi.",
+          "Rèn luyện tính cẩn thận, khả năng quan sát và xử lý công việc theo yêu cầu dự án.",
+          "Phối hợp với team để hoàn thành các đầu việc được giao đúng thời hạn."
+        ]
+      }
     }
   },
-  "experienceTitle": "Kinh nghiệm làm việc",
-  "experience": {
-    "wisewires": {
-      "period": "8/2024 - Nay",
-      "company": "Wisewires Co. Ltd",
-      "role": "Junior Manual Tester",
-      "tasks": [
-        "Check ticket trên Jira, theo dõi tiến độ và phối hợp xử lý công việc với team.",
-        "Viết test case và thực hiện kiểm thử thủ công, chủ yếu là regression testing.",
-        "Thực hiện test các chức năng thanh toán, luồng nghiệp vụ và các thay đổi của hệ thống.",
-        "Kiểm tra giao diện và trải nghiệm người dùng trên các màn hình/chức năng liên quan.",
-        "Báo lỗi, theo dõi lỗi và xác nhận lại sau khi dev fix."
-      ]
-    },
-    "fptAcademy": {
-      "period": "11/2023 - 7/2024",
-      "company": "FPT Academy",
-      "role": "Fresher Korean BrSE",
-      "tasks": [
-        "Tham gia chương trình đào tạo định hướng BrSE và kỹ năng làm việc trong môi trường IT.",
-        "Rèn luyện tiếng Hàn chuyên ngành và kỹ năng giao tiếp trong công việc.",
-        "Tìm hiểu quy trình phát triển phần mềm và cách phối hợp giữa các bộ phận trong dự án.",
-        "Làm quen với tài liệu nghiệp vụ, tài liệu kỹ thuật và cách truyền đạt yêu cầu."
-      ]
-    },
-    "ltsGroup": {
-      "period": "8/2022 - 10/2022",
-      "company": "LTS Group",
-      "role": "Intern Tester / Data Annotator",
-      "tasks": [
-        "Hỗ trợ các công việc liên quan đến kiểm thử và xử lý dữ liệu theo hướng dẫn.",
-        "Làm quen với quy trình kiểm thử phần mềm cơ bản và cách ghi nhận lỗi.",
-        "Rèn luyện tính cẩn thận, khả năng quan sát và xử lý công việc theo yêu cầu dự án.",
-        "Phối hợp với team để hoàn thành các đầu việc được giao đúng thời hạn."
-      ]
-    }
-  }
-},
   "TrainingPage": {
     "title": "Quá trình học tập",
     "placeholder": "Nội dung sẽ được cập nhật sớm...",
@@ -115,9 +114,161 @@
     "copied": "Đã sao chép!"
   },
   "KnowledgePage": {
-    "title": "Tổng hợp kiến thức",
-    "placeholder": "Nội dung sẽ được cập nhật sớm...",
-    "empty": "Mình chưa tổng hợp gì cả. Hãy quay lại sau nhé!"
+    "tabs": {
+      "istqb": "ISTQB",
+      "korean": "Korean"
+    },
+    "istqb": {
+      "title": "ISTQB Foundation Level - Mục lục",
+      "description": "Đây là mục lục tổng hợp theo syllabus ISTQB Foundation Level. Sau này mỗi chương hoặc mục nhỏ có thể tách thành một trang riêng.",
+      "sections": {
+        "intro": {
+          "title": "0. Giới thiệu",
+          "items": [
+            "0.1 Mục đích của giáo trình này",
+            "0.2 Chứng chỉ Certified Tester Foundation Level trong kiểm thử phần mềm",
+            "0.3 Lộ trình nghề nghiệp cho Tester",
+            "0.4 Kết quả đầu ra trong công việc",
+            "0.5 Mục tiêu học tập được kiểm tra và mức độ nhận thức",
+            "0.6 Kỳ thi chứng chỉ Foundation Level",
+            "0.7 Công nhận",
+            "0.8 Cách xử lý tiêu chuẩn",
+            "0.9 Cập nhật kiến thức",
+            "0.10 Mức độ chi tiết",
+            "0.11 Cách tổ chức giáo trình này"
+          ]
+        },
+        "fundamentals": {
+          "title": "1. Kiến thức nền tảng về kiểm thử",
+          "items": [
+            "1.1 Kiểm thử là gì?",
+            "1.1.1 Mục tiêu của kiểm thử",
+            "1.1.2 Kiểm thử và gỡ lỗi",
+            "1.2 Tại sao kiểm thử lại cần thiết?",
+            "1.2.1 Đóng góp của kiểm thử đối với thành công",
+            "1.2.2 Kiểm thử và Đảm bảo chất lượng (QA)",
+            "1.2.3 Lỗi, khuyết điểm, failure và nguyên nhân gốc rễ",
+            "1.3 Các nguyên tắc kiểm thử",
+            "1.4 Hoạt động kiểm thử, testware và vai trò trong kiểm thử",
+            "1.4.1 Hoạt động và nhiệm vụ kiểm thử",
+            "1.4.2 Quy trình kiểm thử trong từng bối cảnh",
+            "1.4.3 Testware",
+            "1.4.4 Traceability giữa test basis và testware",
+            "1.4.5 Vai trò trong kiểm thử",
+            "1.5 Kỹ năng thiết yếu và thực hành tốt trong kiểm thử",
+            "1.5.1 Các kỹ năng chung cần có cho kiểm thử",
+            "1.5.2 Cách tiếp cận toàn đội",
+            "1.5.3 Tính độc lập trong kiểm thử"
+          ]
+        },
+        "lifecycle": {
+          "title": "2. Kiểm thử trong vòng đời phát triển phần mềm",
+          "items": [
+            "2.1 Kiểm thử trong bối cảnh vòng đời phát triển phần mềm (SDLC)",
+            "2.1.1 Ảnh hưởng của SDLC đến kiểm thử",
+            "2.1.2 Vòng đời phát triển phần mềm và thực hành kiểm thử tốt",
+            "2.1.3 Kiểm thử như động lực cho phát triển phần mềm",
+            "2.1.4 DevOps và kiểm thử",
+            "2.1.5 Shift Left",
+            "2.1.6 Retrospective và cải tiến quy trình",
+            "2.2 Các mức kiểm thử và loại kiểm thử",
+            "2.2.1 Các mức kiểm thử",
+            "2.2.2 Các loại kiểm thử",
+            "2.2.3 Kiểm thử xác nhận và kiểm thử hồi quy",
+            "2.3 Kiểm thử bảo trì"
+          ]
+        },
+        "static": {
+          "title": "3. Kiểm thử tĩnh",
+          "items": [
+            "3.1 Kiến thức cơ bản về kiểm thử tĩnh",
+            "3.1.1 Các sản phẩm công việc có thể được kiểm tra bằng kiểm thử tĩnh",
+            "3.1.2 Giá trị của kiểm thử tĩnh",
+            "3.1.3 Sự khác nhau giữa kiểm thử tĩnh và kiểm thử động",
+            "3.2 Quy trình phản hồi và review",
+            "3.2.1 Lợi ích của phản hồi sớm và thường xuyên từ stakeholder",
+            "3.2.2 Các hoạt động trong quy trình review",
+            "3.2.3 Vai trò và trách nhiệm trong review",
+            "3.2.4 Các loại review",
+            "3.2.5 Các yếu tố thành công của review"
+          ]
+        },
+        "analysis": {
+          "title": "4. Phân tích và thiết kế kiểm thử",
+          "items": [
+            "4.1 Tổng quan các kỹ thuật kiểm thử",
+            "4.2 Kỹ thuật kiểm thử hộp đen",
+            "4.2.1 Phân vùng tương đương",
+            "4.2.2 Phân tích giá trị biên",
+            "4.2.3 Kiểm thử bảng quyết định",
+            "4.2.4 Kiểm thử chuyển trạng thái",
+            "4.3 Kỹ thuật kiểm thử hộp trắng",
+            "4.3.1 Kiểm thử câu lệnh và độ bao phủ câu lệnh",
+            "4.3.2 Kiểm thử nhánh và độ bao phủ nhánh",
+            "4.3.3 Giá trị của kiểm thử hộp trắng",
+            "4.4 Kỹ thuật kiểm thử dựa trên kinh nghiệm",
+            "4.4.1 Phỏng đoán lỗi",
+            "4.4.2 Kiểm thử thăm dò",
+            "4.4.3 Kiểm thử dựa trên checklist",
+            "4.5 Cách tiếp cận kiểm thử dựa trên cộng tác",
+            "4.5.1 Cộng tác viết user story",
+            "4.5.2 Tiêu chí chấp nhận",
+            "4.5.3 Acceptance Test-driven Development (ATDD)"
+          ]
+        },
+        "managing": {
+          "title": "5. Quản lý hoạt động kiểm thử",
+          "items": [
+            "5.1 Lập kế hoạch kiểm thử",
+            "5.1.1 Mục đích và nội dung của test plan",
+            "5.1.2 Sự đóng góp của tester vào kế hoạch iteration và release",
+            "5.1.3 Điều kiện vào và điều kiện ra",
+            "5.1.4 Kỹ thuật ước lượng",
+            "5.1.5 Ưu tiên test case",
+            "5.1.6 Test Pyramid",
+            "5.1.7 Testing Quadrants",
+            "5.2 Quản lý rủi ro",
+            "5.2.1 Định nghĩa rủi ro và các thuộc tính của rủi ro",
+            "5.2.2 Rủi ro dự án và rủi ro sản phẩm",
+            "5.2.3 Phân tích rủi ro sản phẩm",
+            "5.2.4 Kiểm soát rủi ro sản phẩm",
+            "5.3 Giám sát, kiểm soát và kết thúc kiểm thử",
+            "5.3.1 Các chỉ số được sử dụng trong kiểm thử",
+            "5.3.2 Mục đích, nội dung và đối tượng của báo cáo kiểm thử",
+            "5.3.3 Truyền đạt trạng thái kiểm thử",
+            "5.4 Quản lý cấu hình",
+            "5.5 Quản lý lỗi"
+          ]
+        },
+        "tools": {
+          "title": "6. Công cụ kiểm thử",
+          "items": [
+            "6.1 Hỗ trợ công cụ cho kiểm thử",
+            "6.2 Lợi ích và rủi ro của tự động hóa kiểm thử"
+          ]
+        },
+        "references": {
+          "title": "7. Tài liệu tham khảo"
+        },
+        "appendixA": {
+          "title": "8. Phụ lục A – Mục tiêu học tập / Mức độ nhận thức"
+        },
+        "appendixB": {
+          "title": "9. Phụ lục B – Ma trận liên kết giữa Business Outcomes và Learning Objectives"
+        },
+        "appendixC": {
+          "title": "10. Phụ lục C – Release Notes"
+        },
+        "index": {
+          "title": "11. Mục lục tra cứu"
+        }
+      }
+    },
+    "korean": {
+      "title": "Korean",
+      "p1": "Đây là nơi mình sẽ ghi lại các kiến thức tiếng Hàn phục vụ công việc, bao gồm từ vựng IT, mẫu câu trao đổi trong công việc, cách đọc tài liệu và các ghi chú cần thiết.",
+      "p2": "Nội dung sẽ được mình cập nhật dần trong thời gian tới."
+    }
   },
   "PracticesPage": {
     "title": "Thực hành",

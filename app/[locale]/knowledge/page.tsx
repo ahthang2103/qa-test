@@ -2,163 +2,176 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { PageLinks } from '@/app/components/PageLinks';
 
 const tabs = [
-  { key: 'istqb', label: 'ISTQB' },
-  { key: 'korean', label: 'Korean' },
+  { key: 'istqb', labelKey: 'tabs.istqb' },
+  { key: 'korean', labelKey: 'tabs.korean' },
 ] as const;
 
 const istqbToc = [
   {
-    title: '0. Introduction',
+    key: 'intro',
+    titleKey: 'istqb.sections.intro.title',
     items: [
-      '0.1 Purpose of this Syllabus',
-      '0.2 The Certified Tester Foundation Level in Software Testing',
-      '0.3 Career Path for Testers',
-      '0.4 Business Outcomes',
-      '0.5 Exam-inable Learning Objectives and Cognitive Level of Knowledge',
-      '0.6 The Foundation Level Certificate Exam',
-      '0.7 Accreditation',
-      '0.8 Handling of Standards',
-      '0.9 Staying Current',
-      '0.10 Level of Detail',
-      '0.11 How this Syllabus is Organized',
+      'istqb.sections.intro.items.0',
+      'istqb.sections.intro.items.1',
+      'istqb.sections.intro.items.2',
+      'istqb.sections.intro.items.3',
+      'istqb.sections.intro.items.4',
+      'istqb.sections.intro.items.5',
+      'istqb.sections.intro.items.6',
+      'istqb.sections.intro.items.7',
+      'istqb.sections.intro.items.8',
+      'istqb.sections.intro.items.9',
+      'istqb.sections.intro.items.10',
     ],
   },
   {
-    title: '1. Fundamentals of Testing',
+    key: 'fundamentals',
+    titleKey: 'istqb.sections.fundamentals.title',
     items: [
-      '1.1 What is Testing?',
-      '1.1.1 Test Objectives',
-      '1.1.2 Testing and Debugging',
-      '1.2 Why is Testing Necessary?',
-      "1.2.1 Testing's Contributions to Success",
-      '1.2.2 Testing and Quality Assurance (QA)',
-      '1.2.3 Errors, Defects, Failures, and Root Causes',
-      '1.3 Testing Principles',
-      '1.4 Test Activities, Testware and Test Roles',
-      '1.4.1 Test Activities and Tasks',
-      '1.4.2 Test Process in Context',
-      '1.4.3 Testware',
-      '1.4.4 Traceability between the Test Basis and Testware',
-      '1.4.5 Roles in Testing',
-      '1.5 Essential Skills and Good Practices in Testing',
-      '1.5.1 Generic Skills Required for Testing',
-      '1.5.2 Whole Team Approach',
-      '1.5.3 Independence of Testing',
+      'istqb.sections.fundamentals.items.0',
+      'istqb.sections.fundamentals.items.1',
+      'istqb.sections.fundamentals.items.2',
+      'istqb.sections.fundamentals.items.3',
+      'istqb.sections.fundamentals.items.4',
+      'istqb.sections.fundamentals.items.5',
+      'istqb.sections.fundamentals.items.6',
+      'istqb.sections.fundamentals.items.7',
+      'istqb.sections.fundamentals.items.8',
+      'istqb.sections.fundamentals.items.9',
+      'istqb.sections.fundamentals.items.10',
+      'istqb.sections.fundamentals.items.11',
+      'istqb.sections.fundamentals.items.12',
+      'istqb.sections.fundamentals.items.13',
+      'istqb.sections.fundamentals.items.14',
+      'istqb.sections.fundamentals.items.15',
+      'istqb.sections.fundamentals.items.16',
+      'istqb.sections.fundamentals.items.17',
     ],
   },
   {
-    title: '2. Testing Throughout the Software Development Lifecycle',
+    key: 'lifecycle',
+    titleKey: 'istqb.sections.lifecycle.title',
     items: [
-      '2.1 Testing in the Context of a Software Development Lifecycle (SDLC)',
-      '2.1.1 Impact of the Software Development Lifecycle on Testing',
-      '2.1.2 Software Development Lifecycle and Good Testing Practices',
-      '2.1.3 Testing as a Driver for Software Development',
-      '2.1.4 DevOps and Testing',
-      '2.1.5 Shift Left',
-      '2.1.6 Retrospectives and Process Improvement',
-      '2.2 Test Levels and Test Types',
-      '2.2.1 Test Levels',
-      '2.2.2 Test Types',
-      '2.2.3 Confirmation Testing and Regression Testing',
-      '2.3 Maintenance Testing',
+      'istqb.sections.lifecycle.items.0',
+      'istqb.sections.lifecycle.items.1',
+      'istqb.sections.lifecycle.items.2',
+      'istqb.sections.lifecycle.items.3',
+      'istqb.sections.lifecycle.items.4',
+      'istqb.sections.lifecycle.items.5',
+      'istqb.sections.lifecycle.items.6',
+      'istqb.sections.lifecycle.items.7',
+      'istqb.sections.lifecycle.items.8',
+      'istqb.sections.lifecycle.items.9',
+      'istqb.sections.lifecycle.items.10',
+      'istqb.sections.lifecycle.items.11',
     ],
   },
   {
-    title: '3. Static Testing',
+    key: 'static',
+    titleKey: 'istqb.sections.static.title',
     items: [
-      '3.1 Static Testing Basics',
-      '3.1.1 Work Products Examineable by Static Testing',
-      '3.1.2 Value of Static Testing',
-      '3.1.3 Differences between Static Testing and Dynamic Testing',
-      '3.2 Feedback and Review Process',
-      '3.2.1 Benefits of Early and Frequent Stakeholder Feedback',
-      '3.2.2 Review Process Activities',
-      '3.2.3 Roles and Responsibilities in Reviews',
-      '3.2.4 Review Types',
-      '3.2.5 Success Factors for Reviews',
+      'istqb.sections.static.items.0',
+      'istqb.sections.static.items.1',
+      'istqb.sections.static.items.2',
+      'istqb.sections.static.items.3',
+      'istqb.sections.static.items.4',
+      'istqb.sections.static.items.5',
+      'istqb.sections.static.items.6',
+      'istqb.sections.static.items.7',
+      'istqb.sections.static.items.8',
+      'istqb.sections.static.items.9',
     ],
   },
   {
-    title: '4. Test Analysis and Design',
+    key: 'analysis',
+    titleKey: 'istqb.sections.analysis.title',
     items: [
-      '4.1 Test Techniques Overview',
-      '4.2 Black-Box Test Techniques',
-      '4.2.1 Equivalence Partitioning',
-      '4.2.2 Boundary Value Analysis',
-      '4.2.3 Decision Table Testing',
-      '4.2.4 State Transition Testing',
-      '4.3 White-Box Test Techniques',
-      '4.3.1 Statement Testing and Statement Coverage',
-      '4.3.2 Branch Testing and Branch Coverage',
-      '4.3.3 The Value of White-box Testing',
-      '4.4 Experience-based Test Techniques',
-      '4.4.1 Error Guessing',
-      '4.4.2 Exploratory Testing',
-      '4.4.3 Checklist-Based Testing',
-      '4.5 Collaboration-based Test Approaches',
-      '4.5.1 Collaborative User Story Writing',
-      '4.5.2 Acceptance Criteria',
-      '4.5.3 Acceptance Test-driven Development (ATDD)',
+      'istqb.sections.analysis.items.0',
+      'istqb.sections.analysis.items.1',
+      'istqb.sections.analysis.items.2',
+      'istqb.sections.analysis.items.3',
+      'istqb.sections.analysis.items.4',
+      'istqb.sections.analysis.items.5',
+      'istqb.sections.analysis.items.6',
+      'istqb.sections.analysis.items.7',
+      'istqb.sections.analysis.items.8',
+      'istqb.sections.analysis.items.9',
+      'istqb.sections.analysis.items.10',
+      'istqb.sections.analysis.items.11',
+      'istqb.sections.analysis.items.12',
+      'istqb.sections.analysis.items.13',
+      'istqb.sections.analysis.items.14',
+      'istqb.sections.analysis.items.15',
+      'istqb.sections.analysis.items.16',
+      'istqb.sections.analysis.items.17',
     ],
   },
   {
-    title: '5. Managing the Test Activities',
+    key: 'managing',
+    titleKey: 'istqb.sections.managing.title',
     items: [
-      '5.1 Test Planning',
-      '5.1.1 Purpose and Content of a Test Plan',
-      "5.1.2 Tester's Contribution to Iteration and Release Planning",
-      '5.1.3 Entry Criteria and Exit Criteria',
-      '5.1.4 Estimation Techniques',
-      '5.1.5 Test Case Prioritization',
-      '5.1.6 Test Pyramid',
-      '5.1.7 Testing Quadrants',
-      '5.2 Risk Management',
-      '5.2.1 Risk Definition and Risk Attributes',
-      '5.2.2 Project Risks and Product Risks',
-      '5.2.3 Product Risk Analysis',
-      '5.2.4 Product Risk Control',
-      '5.3 Test Monitoring, Test Control and Test Completion',
-      '5.3.1 Metrics used in Testing',
-      '5.3.2 Purpose, Content and Audience for Test Reports',
-      '5.3.3 Communicating the Status of Testing',
-      '5.4 Configuration Management',
-      '5.5 Defect Management',
+      'istqb.sections.managing.items.0',
+      'istqb.sections.managing.items.1',
+      'istqb.sections.managing.items.2',
+      'istqb.sections.managing.items.3',
+      'istqb.sections.managing.items.4',
+      'istqb.sections.managing.items.5',
+      'istqb.sections.managing.items.6',
+      'istqb.sections.managing.items.7',
+      'istqb.sections.managing.items.8',
+      'istqb.sections.managing.items.9',
+      'istqb.sections.managing.items.10',
+      'istqb.sections.managing.items.11',
+      'istqb.sections.managing.items.12',
+      'istqb.sections.managing.items.13',
+      'istqb.sections.managing.items.14',
+      'istqb.sections.managing.items.15',
+      'istqb.sections.managing.items.16',
+      'istqb.sections.managing.items.17',
     ],
   },
   {
-    title: '6. Test Tools',
+    key: 'tools',
+    titleKey: 'istqb.sections.tools.title',
     items: [
-      '6.1 Tool Support for Testing',
-      '6.2 Benefits and Risks of Test Automation',
+      'istqb.sections.tools.items.0',
+      'istqb.sections.tools.items.1',
     ],
   },
   {
-    title: '7. References',
+    key: 'references',
+    titleKey: 'istqb.sections.references.title',
     items: [],
   },
   {
-    title: '8. Appendix A – Learning Objectives / Cognitive Level of Knowledge',
+    key: 'appendixA',
+    titleKey: 'istqb.sections.appendixA.title',
     items: [],
   },
   {
-    title: '9. Appendix B – Business Outcomes Traceability Matrix with Learning Objectives',
+    key: 'appendixB',
+    titleKey: 'istqb.sections.appendixB.title',
     items: [],
   },
   {
-    title: '10. Appendix C – Release Notes',
+    key: 'appendixC',
+    titleKey: 'istqb.sections.appendixC.title',
     items: [],
   },
   {
-    title: '11. Index',
+    key: 'index',
+    titleKey: 'istqb.sections.index.title',
     items: [],
   },
 ] as const;
 
 const KnowledgePage = () => {
   const [activeTab, setActiveTab] = useState<'istqb' | 'korean'>('istqb');
+  const t = useTranslations('KnowledgePage');
 
   return (
     <div className="mx-auto w-full max-w-4xl py-12">
@@ -176,7 +189,7 @@ const KnowledgePage = () => {
                   isActive ? 'text-black' : 'text-black/50 hover:text-black'
                 }`}
               >
-                {tab.label}
+                {t(tab.labelKey)}
                 {isActive && (
                   <span className="absolute bottom-0 left-0 h-0.5 w-full bg-black" />
                 )}
@@ -190,31 +203,25 @@ const KnowledgePage = () => {
         {activeTab === 'istqb' && (
           <section className="space-y-8">
             <div>
-              <h1 className="text-2xl font-semibold">ISTQB Foundation Level - Table of Contents</h1>
-              <p className="mt-2 text-sm text-black/50">
-                Đây là mục lục tổng hợp theo syllabus ISTQB Foundation Level. Sau này mỗi
-                chương hoặc mục nhỏ có thể tách thành một trang riêng.
-              </p>
+              <h1 className="text-2xl font-semibold">{t('istqb.title')}</h1>
+              <p className="mt-2 text-sm text-black/50">{t('istqb.description')}</p>
             </div>
 
             <div className="space-y-6">
               {istqbToc.map((chapter) => (
-                <div key={chapter.title} className="rounded-xl border border-black/10 p-5">
+                <div key={chapter.key} className="rounded-xl border border-black/10 p-5">
                   <div className="mb-3">
-                    <Link
-                      href="#"
-                      className="text-lg font-semibold text-black hover:underline"
-                    >
-                      {chapter.title}
+                    <Link href="#" className="text-lg font-semibold text-black hover:underline">
+                      {t(chapter.titleKey)}
                     </Link>
                   </div>
 
                   {chapter.items.length > 0 && (
                     <ul className="space-y-2 pl-5 text-sm text-black/70">
-                      {chapter.items.map((item) => (
-                        <li key={item} className="list-disc">
+                      {chapter.items.map((itemKey) => (
+                        <li key={itemKey} className="list-disc">
                           <Link href="#" className="hover:underline">
-                            {item}
+                            {t(itemKey)}
                           </Link>
                         </li>
                       ))}
@@ -228,13 +235,9 @@ const KnowledgePage = () => {
 
         {activeTab === 'korean' && (
           <section className="space-y-4 text-sm leading-7 text-black/70">
-            <h2 className="text-xl font-semibold text-black">Korean</h2>
-            <p>
-              Đây là nơi mình sẽ ghi lại các kiến thức tiếng Hàn phục vụ công việc,
-              bao gồm từ vựng IT, mẫu câu trao đổi trong công việc, cách đọc tài liệu
-              và các ghi chú cần thiết.
-            </p>
-            <p>Nội dung sẽ được mình cập nhật dần trong thời gian tới.</p>
+            <h2 className="text-xl font-semibold text-black">{t('korean.title')}</h2>
+            <p>{t('korean.p1')}</p>
+            <p>{t('korean.p2')}</p>
           </section>
         )}
       </div>
