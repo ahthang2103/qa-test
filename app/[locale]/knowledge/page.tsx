@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { PageLinks } from '@/app/components/PageLinks';
 
@@ -13,6 +13,7 @@ const tabs = [
 const istqbToc = [
   {
     key: 'intro',
+    href: '/knowledge/istqb',
     titleKey: 'istqb.sections.intro.title',
     items: [
       'istqb.sections.intro.items.0',
@@ -30,6 +31,7 @@ const istqbToc = [
   },
   {
     key: 'fundamentals',
+    href: '/knowledge/istqb/chapter-1-fundamentals-of-testing',
     titleKey: 'istqb.sections.fundamentals.title',
     items: [
       'istqb.sections.fundamentals.items.0',
@@ -54,6 +56,7 @@ const istqbToc = [
   },
   {
     key: 'lifecycle',
+    href: '/knowledge/istqb/chapter-2-testing-throughout-the-sdlc',
     titleKey: 'istqb.sections.lifecycle.title',
     items: [
       'istqb.sections.lifecycle.items.0',
@@ -72,6 +75,7 @@ const istqbToc = [
   },
   {
     key: 'static',
+    href: '/knowledge/istqb/chapter-3-static-testing',
     titleKey: 'istqb.sections.static.title',
     items: [
       'istqb.sections.static.items.0',
@@ -88,6 +92,7 @@ const istqbToc = [
   },
   {
     key: 'analysis',
+    href: '/knowledge/istqb/chapter-4-test-analysis-and-design',
     titleKey: 'istqb.sections.analysis.title',
     items: [
       'istqb.sections.analysis.items.0',
@@ -112,6 +117,7 @@ const istqbToc = [
   },
   {
     key: 'managing',
+    href: '/knowledge/istqb/chapter-5-managing-the-test-activities',
     titleKey: 'istqb.sections.managing.title',
     items: [
       'istqb.sections.managing.items.0',
@@ -136,6 +142,7 @@ const istqbToc = [
   },
   {
     key: 'tools',
+    href: '/knowledge/istqb/chapter-6-test-tools',
     titleKey: 'istqb.sections.tools.title',
     items: [
       'istqb.sections.tools.items.0',
@@ -144,26 +151,31 @@ const istqbToc = [
   },
   {
     key: 'references',
+    href: '/knowledge/istqb',
     titleKey: 'istqb.sections.references.title',
     items: [],
   },
   {
     key: 'appendixA',
+    href: '/knowledge/istqb',
     titleKey: 'istqb.sections.appendixA.title',
     items: [],
   },
   {
     key: 'appendixB',
+    href: '/knowledge/istqb',
     titleKey: 'istqb.sections.appendixB.title',
     items: [],
   },
   {
     key: 'appendixC',
+    href: '/knowledge/istqb',
     titleKey: 'istqb.sections.appendixC.title',
     items: [],
   },
   {
     key: 'index',
+    href: '/knowledge/istqb',
     titleKey: 'istqb.sections.index.title',
     items: [],
   },
@@ -185,9 +197,8 @@ const KnowledgePage = () => {
                 key={tab.key}
                 type="button"
                 onClick={() => setActiveTab(tab.key)}
-                className={`relative pb-3 text-base font-medium transition ${
-                  isActive ? 'text-black' : 'text-black/50 hover:text-black'
-                }`}
+                className={`relative pb-3 text-base font-medium transition ${isActive ? 'text-black' : 'text-black/50 hover:text-black'
+                  }`}
               >
                 {t(tab.labelKey)}
                 {isActive && (
@@ -211,7 +222,7 @@ const KnowledgePage = () => {
               {istqbToc.map((chapter) => (
                 <div key={chapter.key} className="rounded-xl border border-black/10 p-5">
                   <div className="mb-3">
-                    <Link href="#" className="text-lg font-semibold text-black hover:underline">
+                    <Link href={chapter.href} className="text-lg font-semibold text-black hover:underline">
                       {t(chapter.titleKey)}
                     </Link>
                   </div>
@@ -220,7 +231,7 @@ const KnowledgePage = () => {
                     <ul className="space-y-2 pl-5 text-sm text-black/70">
                       {chapter.items.map((itemKey) => (
                         <li key={itemKey} className="list-disc">
-                          <Link href="#" className="hover:underline">
+                          <Link href={chapter.href} className="hover:underline">
                             {t(itemKey)}
                           </Link>
                         </li>
